@@ -1,0 +1,46 @@
+version: "3.8"
+
+services:
+  # mongodb database
+  stream_mongo_db:
+    container_name: stream_mongo_db
+    image: mongo
+    restart: always
+    ports:
+      - 27017:27017
+    volumes:
+      - db:/data/db
+    networks:
+      - network_app
+  # backend streamlit app
+  backend_streamlit_app:
+    build:
+      context: backend
+      dockerfile: dockerfile
+    container_name: backend_streamlit_app
+    ports:
+      - 4000:4000
+    volumes:
+      - ./backend:/user/backend_streamlit_app
+    networks:
+      - network_app
+
+  # streamlit app
+  streamlit_app:
+    build:
+      context: frontend
+      dockerfile: dockerfile
+    container_name: streamlit_app
+    ports:
+      - 8501:8501
+    networks:
+      - network_app
+    depends_on:
+      - stream_mongo_db
+      - backend_streamlit_app
+    volumes:
+      - ./frontend:/user/streamlit_app
+volumes:
+  db: {}
+networks:
+  network_app: {}

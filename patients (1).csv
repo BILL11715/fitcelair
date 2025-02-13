@@ -1,0 +1,507 @@
+,ID,Âge,Sexe,Taille (cm),Poids (kg),Type de pied,Présence de tensions,Localisation des tensions,Déséquilibres posturaux,Image,Epaisseur_Tension,Distance_Acromion_G,Distance_Acromion_D,Distance_EIPS_G,Distance_EIPS_D,Distance_T4,Distance_L1
+0,1,48,Homme,187.0,98.0,Plat,Oui,Haut gauche,Genoux valgum,images_patients/patient_1.png,0.08550000000000002,71.49,86.28,4.33,39.68,59.0,20.27
+3,4,51,Femme,162.5762823525104,71.16528850519356,Creux,Oui,Gauche,Genoux valgum,images_patients/patient_4.png,0.05837714732893834,77.5,91.59,1.84,39.9,64.94,23.12
+6,7,29,Femme,162.0,81.0,Normal,Oui,Bas gauche,Genoux valgum,images_patients/patient_7.png,0.0675,74.77,89.05,1.1,39.51,62.16,21.48
+7,8,27,Homme,173.6502431562011,80.17319505954863,Creux,Oui,Haut gauche,Cyphose dorsale,images_patients/patient_8.png,0.0618480734814481,34.02,33.1,63.37,63.04,0.52,49.96
+8,9,44,Femme,163.5722144282992,83.6452720972685,Creux,Oui,Bas du dos,Genoux valgum,images_patients/patient_9.png,0.07035916488311889,90.49,75.72,40.47,0.48,63.5,22.83
+9,10,56,Homme,174.1100820624021,92.03871213367164,Plat,Oui,Bas du dos,Aucun,images_patients/patient_10.png,0.0739836711024706,69.36,68.56,24.58,23.04,47.1,3.05
+14,15,27,Homme,166.0,69.0,Plat,Oui,Bas du dos,Épaule antépulsée,images_patients/patient_15.png,0.057,60.33,0.81,90.94,76.45,34.17,72.4
+19,20,44,Femme,152.0,77.0,Plat,Oui,Bas droite,Épaule antépulsée,images_patients/patient_20.png,0.07,60.35,2.92,92.72,78.58,35.18,74.35
+21,22,66,Femme,161.053606304621,65.94463341974438,Normal,Oui,Bas du dos,Hyperlordose lombaire,images_patients/patient_22.png,0.06102856342794511,70.94,71.97,21.35,23.53,49.86,1.23
+22,23,45,Homme,170.0,94.0,Creux,Oui,Bas droite,Hyperlordose lombaire,images_patients/patient_23.png,0.07750000000000001,69.5,69.69,23.24,23.62,47.8,2.21
+25,26,64,Femme,165.8077765470213,71.40540687265043,Normal,Oui,Bas du dos,Genoux valgum,images_patients/patient_26.png,0.05600151859913977,90.92,76.09,40.65,0.82,63.93,23.16
+27,28,41,Femme,166.4073765792398,58.25318889978633,Creux,Oui,Haut du dos,Épaule antépulsée,images_patients/patient_28.png,0.06704312281059378,60.07,2.39,88.17,73.3,32.56,69.43
+28,29,20,Femme,169.0,61.0,Plat,Oui,Haut droite,Épaule antépulsée,images_patients/patient_29.png,0.0635,59.45,0.62,90.08,75.88,33.19,71.63
+31,32,33,Homme,191.0,78.0,Normal,Oui,Bas droite,Aucun,images_patients/patient_32.png,0.066,78.86,65.98,37.09,11.52,51.77,15.55
+35,36,45,Femme,154.2855852447976,60.15093326555122,Creux,Oui,Bas gauche,Hyperlordose lombaire,images_patients/patient_36.png,0.07120627411205,72.58,72.82,21.59,22.1,51.22,1.25
+37,38,31,Femme,166.6043900124181,73.58668616267795,Creux,Oui,Droite,Hyperlordose lombaire,images_patients/patient_38.png,0.0587844911564689,91.06,76.16,40.76,0.96,64.05,23.31
+38,39,25,Femme,164.0,78.0,Creux,Oui,Haut du dos,Hyperlordose lombaire,images_patients/patient_39.png,0.0645,90.61,76.65,39.47,1.07,63.96,22.32
+39,40,30,Femme,167.6902749391544,65.552251664925,Normal,Oui,Bas gauche,Épaule antépulsée,images_patients/patient_40.png,0.05810261086549783,1.04,61.03,75.86,90.76,34.49,72.07
+40,41,61,Femme,179.0,81.0,Creux,Oui,Haut gauche,Cyphose dorsale,images_patients/patient_41.png,0.064,32.97,33.46,63.87,64.04,0.79,50.74
+41,42,46,Femme,164.9557916414808,72.48108270992068,Plat,Oui,Bas gauche,Aucun,images_patients/patient_42.png,0.05900318688918028,65.35,78.86,11.74,37.91,51.51,16.28
+43,44,66,Homme,176.6953551594419,75.99616401418085,Creux,Oui,Haut gauche,Cyphose dorsale,images_patients/patient_44.png,0.05784384159390182,34.19,32.57,63.89,63.32,0.98,50.38
+44,45,48,Femme,165.7933077161965,70.78632926474383,Normal,Oui,Bas gauche,Cyphose dorsale,images_patients/patient_45.png,0.05538967540664557,32.42,34.3,63.32,63.97,1.12,50.43
+45,46,67,Homme,172.0,85.0,Creux,Oui,Gauche,Cyphose dorsale,images_patients/patient_46.png,0.0675,32.38,33.54,64.33,64.73,1.49,51.35
+46,47,53,Femme,171.1305837303797,68.25619551361105,Creux,Oui,Bas droite,Aucun,images_patients/patient_47.png,0.05467851262119909,79.89,67.56,36.32,10.3,53.12,15.19
+47,48,68,Femme,165.0,72.0,Plat,Oui,Haut droite,Épaule antépulsée,images_patients/patient_48.png,0.05850000000000001,60.1,1.54,91.47,77.2,34.33,73.02
+48,49,65,Femme,164.0,53.0,Plat,Oui,Droite,Aucun,images_patients/patient_49.png,0.07400000000000001,64.42,41.0,53.65,35.1,32.3,32.45
+49,50,47,Homme,173.7506181158661,80.77647620713812,Normal,Oui,Bas du dos,Cyphose dorsale,images_patients/patient_50.png,0.06140116714920507,33.94,32.35,64.4,63.85,1.27,50.92
+50,51,65,Femme,172.6591638058179,63.15046763623817,Normal,Oui,Haut gauche,Épaule antépulsée,images_patients/patient_51.png,0.05801995046085288,0.69,60.68,75.68,90.46,34.12,71.81
+51,52,43,Homme,181.311027061342,77.64421048985172,Creux,Oui,Haut gauche,Épaule antépulsée,images_patients/patient_52.png,0.06179972402052272,0.85,60.84,75.64,90.49,34.23,71.81
+52,53,37,Homme,171.1638117240977,76.94657820910545,Creux,Oui,Haut droite,Genoux valgum,images_patients/patient_53.png,0.0598646723470566,90.76,76.26,40.19,0.65,63.9,22.81
+54,55,47,Homme,172.4100211367773,86.41201472052437,Normal,Oui,Haut gauche,Hyperlordose lombaire,images_patients/patient_55.png,0.06770700415213571,74.67,88.98,1.18,39.52,62.08,21.45
+57,58,67,Femme,162.0555860085122,86.72792545370733,Normal,Oui,Haut droite,Hyperlordose lombaire,images_patients/patient_58.png,0.07320013244945121,70.24,69.95,23.44,22.85,48.35,1.69
+58,59,63,Femme,165.7443336083373,69.43419000351285,Normal,Oui,Haut droite,Genoux valgum,images_patients/patient_59.png,0.05519364319231848,89.13,74.79,39.6,1.02,62.23,21.58
+59,60,63,Femme,167.535597184773,58.0208645021927,Creux,Oui,Droite,Épaule antépulsée,images_patients/patient_60.png,0.0667113369054208,60.39,1.81,88.88,73.96,33.12,70.14
+64,65,57,Femme,158.1870729601906,81.4665385577878,Normal,Oui,Haut gauche,Hyperlordose lombaire,images_patients/patient_65.png,0.06987300207769252,70.39,70.38,23.0,22.97,48.67,1.33
+67,68,18,Homme,169.0,82.0,Normal,Oui,Haut du dos,Hyperlordose lombaire,images_patients/patient_68.png,0.065,88.27,73.66,39.77,2.08,61.2,21.25
+68,69,42,Homme,186.0,96.0,Normal,Oui,Haut du dos,Cyphose dorsale,images_patients/patient_69.png,0.08150000000000002,32.95,32.58,65.05,64.92,1.84,51.83
+69,70,26,Homme,161.0,66.0,Normal,Oui,Droite,Cyphose dorsale,images_patients/patient_70.png,0.06100000000000001,34.18,33.67,62.54,62.36,0.89,49.16
+70,71,24,Homme,161.0,90.0,Plat,Oui,Bas gauche,Épaule antépulsée,images_patients/patient_71.png,0.07850000000000001,2.91,61.33,78.43,93.02,35.89,74.49
+71,72,58,Femme,176.0,67.0,Creux,Oui,Haut du dos,Épaule antépulsée,images_patients/patient_72.png,0.05450000000000001,59.13,1.86,88.29,73.93,32.04,69.74
+80,81,23,Femme,170.829773333513,75.44749385225393,Creux,Oui,Bas droite,Genoux valgum,images_patients/patient_81.png,0.05853260718549745,89.94,75.13,40.37,0.61,62.9,22.48
+81,82,34,Femme,162.312283252032,68.62612420210965,Normal,Oui,Gauche,Aucun,images_patients/patient_82.png,0.05771773417187434,41.13,64.24,35.04,53.39,32.17,32.23
+85,86,24,Homme,184.0,61.0,Normal,Oui,Haut gauche,Épaule antépulsée,images_patients/patient_86.png,0.0635,1.56,59.9,74.11,88.78,32.76,70.13
+86,87,29,Femme,172.7577350852968,54.6833976862106,Normal,Oui,Droite,Épaule antépulsée,images_patients/patient_87.png,0.066437734771141,59.41,1.3,88.85,74.45,32.5,70.29
+87,88,32,Homme,176.925924871846,86.30575278031442,Plat,Oui,Droite,Hyperlordose lombaire,images_patients/patient_88.png,0.06876871521623741,68.74,69.51,22.96,24.46,47.28,2.87
+90,91,64,Homme,160.0,82.0,Plat,Oui,Bas droite,Hyperlordose lombaire,images_patients/patient_91.png,0.07100000000000001,69.52,70.16,22.65,23.93,48.07,2.07
+91,92,63,Homme,174.6300120212526,84.38350575113311,Creux,Oui,Bas gauche,Cyphose dorsale,images_patients/patient_92.png,0.06556849974050681,32.87,33.73,63.62,63.92,0.73,50.55
+92,93,23,Femme,159.4665919206701,66.94514665443351,Creux,Oui,Gauche,Épaule antépulsée,images_patients/patient_93.png,0.06182155738523144,1.11,60.84,75.05,90.0,33.98,71.28
+93,94,47,Femme,170.2372801029555,72.38897456613009,Creux,Oui,Haut droite,Hyperlordose lombaire,images_patients/patient_94.png,0.05577033451465233,71.86,72.69,21.13,22.95,50.76,1.25
+96,97,24,Homme,180.6637867417058,91.02607684320043,Plat,Oui,Haut droite,Hyperlordose lombaire,images_patients/patient_97.png,0.07535797021405333,68.57,68.31,24.36,23.88,46.52,3.5
+97,98,36,Homme,176.0,78.0,Normal,Oui,Bas gauche,Hyperlordose lombaire,images_patients/patient_98.png,0.0585,74.1,89.08,1.57,40.39,61.92,22.06
+98,99,43,Homme,182.0657225668266,71.92716496261968,Creux,Oui,Haut droite,Genoux valgum,images_patients/patient_99.png,0.05646002624603299,90.97,77.02,39.55,1.38,64.34,22.56
+99,100,62,Femme,181.0,74.0,Normal,Oui,Haut gauche,Genoux valgum,images_patients/patient_100.png,0.05700000000000001,74.4,89.09,1.27,40.04,62.04,21.84
+101,102,64,Femme,178.0,61.0,Plat,Oui,Haut du dos,Hyperlordose lombaire,images_patients/patient_102.png,0.06200000000000001,90.07,76.05,39.41,0.67,63.35,21.97
+102,103,68,Femme,152.267621103492,70.71548163955958,Creux,Oui,Bas gauche,Hyperlordose lombaire,images_patients/patient_103.png,0.0630816710878136,76.84,91.75,1.61,40.97,64.78,23.81
+103,104,19,Homme,180.0,95.0,Creux,Oui,Haut du dos,Épaule antépulsée,images_patients/patient_104.png,0.07850000000000001,59.99,1.38,91.28,77.03,34.16,72.84
+104,105,45,Homme,194.0,87.0,Creux,Oui,Droite,Épaule antépulsée,images_patients/patient_105.png,0.07750000000000001,59.51,0.6,90.15,75.94,33.25,71.69
+105,106,22,Femme,167.1608514746995,72.94590507232985,Creux,Oui,Haut droite,Hyperlordose lombaire,images_patients/patient_106.png,0.0578654793349801,72.73,72.08,22.7,21.26,50.9,1.19
+106,107,31,Femme,178.0,81.0,Normal,Oui,Haut du dos,Épaule antépulsée,images_patients/patient_107.png,0.0625,60.6,1.43,91.55,77.03,34.66,73.02
+107,108,32,Homme,178.5218258204843,82.21085260350259,Plat,Oui,Gauche,Hyperlordose lombaire,images_patients/patient_108.png,0.06547176551374473,72.88,87.36,2.98,39.44,60.28,20.59
+109,110,54,Homme,176.0,82.0,Normal,Oui,Bas du dos,Aucun,images_patients/patient_110.png,0.0625,70.21,71.02,22.04,23.7,48.93,1.44
+112,113,41,Femme,157.3053078993373,62.58491176484254,Normal,Oui,Gauche,Aucun,images_patients/patient_113.png,0.06626243428548881,42.08,65.87,33.84,53.46,33.83,32.02
+113,114,64,Homme,159.0,61.0,Creux,Oui,Haut gauche,Genoux valgum,images_patients/patient_114.png,0.068,76.63,90.82,0.96,39.82,64.09,22.64
+115,116,70,Femme,178.0,65.0,Creux,Oui,Droite,Épaule antépulsée,images_patients/patient_116.png,0.05750000000000001,60.61,1.99,88.89,73.86,33.27,70.12
+116,117,55,Homme,175.396864213006,78.95053643790872,Normal,Oui,Gauche,Cyphose dorsale,images_patients/patient_117.png,0.05914896854441175,32.44,34.04,63.63,64.19,1.13,50.7
+117,118,47,Homme,182.8125287335803,74.4272478165243,Creux,Oui,Bas gauche,Cyphose dorsale,images_patients/patient_118.png,0.05933351218331447,34.23,34.28,61.78,61.8,1.54,48.47
+119,120,46,Femme,175.0,62.0,Normal,Oui,Bas droite,Aucun,images_patients/patient_120.png,0.058,80.3,67.42,36.99,9.98,53.33,15.88
+122,123,34,Homme,180.3781520557235,79.75060201811488,Normal,Oui,Haut du dos,Épaule antépulsée,images_patients/patient_123.png,0.06243967804597662,59.8,0.61,90.51,76.21,33.62,72.03
+126,127,66,Homme,184.0,78.0,Normal,Oui,Bas droite,Cyphose dorsale,images_patients/patient_127.png,0.0625,33.98,31.79,65.08,64.34,1.95,51.55
+127,128,60,Homme,172.0,78.0,Creux,Oui,Droite,Aucun,images_patients/patient_128.png,0.06050000000000001,63.44,40.55,53.52,35.74,31.34,32.5
+128,129,31,Homme,185.0,100.0,Creux,Oui,Haut gauche,Aucun,images_patients/patient_129.png,0.08600000000000001,19.42,46.6,62.92,71.8,15.2,54.8
+129,130,54,Homme,192.0,95.0,Creux,Oui,Bas du dos,Hyperlordose lombaire,images_patients/patient_130.png,0.08450000000000002,89.77,74.63,40.75,1.2,62.6,22.63
+130,131,64,Femme,169.4811579006844,74.84592395533392,Normal,Oui,Gauche,Hyperlordose lombaire,images_patients/patient_131.png,0.05760534500499172,74.96,89.89,0.82,40.52,62.8,22.54
+133,134,24,Femme,162.4111345299286,71.0300738980966,Creux,Oui,Bas droite,Genoux valgum,images_patients/patient_134.png,0.05832450663313231,90.85,77.21,39.12,1.7,64.34,22.26
+134,135,45,Femme,165.4287133623245,80.91335498541119,Plat,Oui,Bas du dos,Genoux valgum,images_patients/patient_135.png,0.06719899830424897,88.42,73.22,40.54,2.44,61.13,21.84
+137,138,59,Homme,174.936527952396,80.7174652258856,Normal,Oui,Gauche,Épaule antépulsée,images_patients/patient_138.png,0.06074920124968761,0.99,59.38,76.34,90.43,33.34,72.03
+139,140,59,Homme,169.1596647905721,71.13709346704884,Creux,Oui,Haut droite,Genoux valgum,images_patients/patient_140.png,0.05505726107176281,91.25,77.28,39.66,1.62,64.63,22.79
+140,141,20,Femme,169.9732923565149,72.5830328148502,Normal,Oui,Bas droite,Épaule antépulsée,images_patients/patient_141.png,0.05509638663659275,59.53,0.88,90.49,76.33,33.46,72.06
+141,142,49,Femme,164.6947482665801,67.6650847623493,Creux,Oui,Haut gauche,Cyphose dorsale,images_patients/patient_142.png,0.05848754110436066,34.74,34.17,61.51,61.3,1.97,48.06
+143,144,51,Homme,177.112013461794,74.0055646100447,Normal,Oui,Gauche,Hyperlordose lombaire,images_patients/patient_144.png,0.05506157134094168,74.78,88.71,1.45,39.0,61.94,20.99
+144,145,22,Homme,180.0,100.0,Creux,Oui,Droite,Genoux valgum,images_patients/patient_145.png,0.0835,87.69,73.12,39.62,2.68,60.6,20.87
+145,146,18,Homme,182.0,69.0,Creux,Oui,Droite,Genoux valgum,images_patients/patient_146.png,0.05550000000000001,91.29,76.18,41.09,1.27,64.22,23.63
+146,147,43,Homme,160.0,92.0,Plat,Oui,Bas du dos,Aucun,images_patients/patient_147.png,0.08100000000000002,67.59,68.32,23.76,25.11,45.98,4.11
+153,154,42,Femme,157.2501131305657,73.32726376306263,Creux,Oui,Haut gauche,Genoux valgum,images_patients/patient_154.png,0.0632022071977798,75.51,90.21,0.32,40.3,63.23,22.58
+154,155,43,Femme,161.8795931390399,63.11960521664683,Creux,Oui,Haut droite,Hyperlordose lombaire,images_patients/patient_155.png,0.0644405982138332,72.92,73.04,21.59,21.85,51.52,1.53
+155,156,39,Femme,161.8773294736071,71.28048362860845,Normal,Oui,Haut gauche,Cyphose dorsale,images_patients/patient_156.png,0.05784181889180488,33.36,33.19,63.85,63.79,0.61,50.61
+158,159,18,Femme,166.5791388978573,66.59832356597816,Creux,Oui,Haut gauche,Genoux valgum,images_patients/patient_159.png,0.05861210698509321,75.97,90.61,0.48,40.32,63.68,22.81
+159,160,27,Homme,170.8509960255655,82.0178148119912,Plat,Oui,Droite,Genoux valgum,images_patients/patient_160.png,0.06559231679920846,87.79,72.14,41.0,3.54,60.28,21.86
+160,161,34,Femme,152.0,74.0,Creux,Oui,Bas droite,Genoux valgum,images_patients/patient_161.png,0.0665,90.67,76.86,39.29,1.33,64.08,22.25
+161,162,53,Homme,177.7077566037337,86.44062216877415,Creux,Oui,Bas gauche,Aucun,images_patients/patient_162.png,0.068794500470641,66.56,78.25,11.92,35.65,51.6,14.12
+165,166,48,Homme,186.0,67.0,Creux,Oui,Haut gauche,Cyphose dorsale,images_patients/patient_166.png,0.0595,33.73,33.68,62.9,62.89,0.37,49.63
+166,167,42,Femme,159.3340113615351,67.08945900589929,Plat,Oui,Bas du dos,Épaule antépulsée,images_patients/patient_167.png,0.06224353531333316,59.95,1.1,91.02,76.75,33.99,72.57
+167,168,28,Femme,158.0978498681307,68.89551156997648,Normal,Oui,Haut droite,Épaule antépulsée,images_patients/patient_168.png,0.05955556349595816,58.61,1.5,89.84,76.04,32.57,71.53
+168,169,60,Homme,174.0517205846411,69.992639696617,Normal,Oui,Haut gauche,Aucun,images_patients/patient_169.png,0.05048150001106243,20.9,47.99,60.07,69.66,15.55,52.27
+173,174,26,Homme,179.1442096976163,88.74187464569091,Creux,Oui,Haut droite,Hyperlordose lombaire,images_patients/patient_174.png,0.07181397949449907,70.11,70.79,22.26,23.65,48.74,1.49
+179,180,61,Femme,172.0,72.0,Normal,Oui,Bas du dos,Épaule antépulsée,images_patients/patient_180.png,0.05350000000000001,60.45,0.88,89.76,74.98,33.61,71.09
+180,181,19,Homme,171.5832461041153,90.92326833204133,Plat,Oui,Haut gauche,Hyperlordose lombaire,images_patients/patient_181.png,0.07413164527998369,67.74,68.46,23.68,25.01,46.14,3.95
+182,183,63,Femme,168.1874148619976,70.26612006371877,Normal,Oui,Haut du dos,Cyphose dorsale,images_patients/patient_183.png,0.05367241263271996,33.37,34.49,62.24,62.64,1.06,49.15
+183,184,22,Homme,178.7473557551718,77.84098886210677,Creux,Oui,Bas gauche,Genoux valgum,images_patients/patient_184.png,0.06071466673969265,76.37,90.09,1.14,39.03,63.5,21.77
+184,185,47,Femme,170.0,65.0,Normal,Oui,Droite,Cyphose dorsale,images_patients/patient_185.png,0.05750000000000001,33.72,33.2,63.51,63.33,0.34,50.18
+185,186,23,Femme,168.0,75.0,Plat,Oui,Haut droite,Cyphose dorsale,images_patients/patient_186.png,0.06000000000000001,31.77,32.98,65.74,66.14,2.9,52.83
+186,187,58,Homme,173.9123934929509,87.59718919348742,Creux,Oui,Haut gauche,Genoux valgum,images_patients/patient_187.png,0.06914099244701198,74.01,88.5,1.76,39.66,61.5,21.3
+187,188,69,Homme,182.7862912465276,85.12051669964816,Creux,Oui,Bas du dos,Hyperlordose lombaire,images_patients/patient_188.png,0.07001366232291194,90.09,75.46,40.19,0.27,63.13,22.45
+190,191,48,Homme,172.9024902804484,80.94494442018298,Creux,Oui,Gauche,Cyphose dorsale,images_patients/patient_191.png,0.06299369927995879,34.65,33.2,62.72,62.2,1.17,49.17
+192,193,18,Homme,167.0,61.0,Normal,Oui,Bas du dos,Aucun,images_patients/patient_193.png,0.063,73.18,72.77,22.18,21.27,51.52,1.6
+193,194,70,Femme,164.538135991881,67.93021556990995,Normal,Oui,Gauche,Aucun,images_patients/patient_194.png,0.05730071643414957,42.13,64.54,34.09,52.5,32.68,31.26
+195,196,59,Homme,191.0,75.0,Normal,Oui,Haut droite,Hyperlordose lombaire,images_patients/patient_196.png,0.063,88.86,74.2,39.94,1.49,61.81,21.66
+197,198,44,Homme,182.1168431904639,79.59099875557042,Plat,Oui,Bas droite,Aucun,images_patients/patient_198.png,0.06464942035080237,76.42,63.42,37.59,14.2,49.05,15.51
+198,199,35,Femme,167.0154463741685,56.75957857365001,Plat,Oui,Haut droite,Épaule antépulsée,images_patients/patient_199.png,0.06873269823926574,60.71,1.11,91.24,76.61,34.56,72.67
+200,201,44,Femme,159.0,53.0,Plat,Oui,Bas gauche,Aucun,images_patients/patient_201.png,0.07650000000000001,66.17,79.5,10.98,37.61,52.28,16.18
+201,202,40,Homme,181.1697740676792,86.93922361759613,Plat,Oui,Droite,Épaule antépulsée,images_patients/patient_202.png,0.07152411065143571,60.76,3.31,93.22,78.97,35.69,74.82
+203,204,19,Femme,178.0,56.0,Plat,Oui,Haut du dos,Genoux valgum,images_patients/patient_204.png,0.067,90.83,75.95,40.69,0.78,63.82,23.14
+204,205,63,Homme,180.9334294855335,80.93943754019651,Creux,Oui,Gauche,Aucun,images_patients/patient_205.png,0.06490615228296324,40.6,64.33,35.48,54.03,32.13,32.86
+205,206,23,Homme,169.2749881668918,76.12482859318683,Normal,Oui,Bas du dos,Épaule antépulsée,images_patients/patient_206.png,0.05898733450974095,59.94,1.22,91.11,76.86,34.04,72.66
+207,208,67,Homme,175.0120448773518,91.02151583896901,Plat,Oui,Bas du dos,Aucun,images_patients/patient_208.png,0.07252753827764491,68.46,69.03,23.39,24.49,46.85,3.22
+209,210,26,Homme,189.0,88.0,Creux,Oui,Haut droite,Hyperlordose lombaire,images_patients/patient_210.png,0.07600000000000001,89.33,74.91,39.74,0.84,62.4,21.77
+210,211,62,Homme,175.3242140427063,73.75364510160418,Normal,Oui,Bas gauche,Épaule antépulsée,images_patients/patient_211.png,0.05391575212295732,0.43,59.78,75.27,89.71,33.18,71.16
+211,212,26,Homme,175.683475548323,84.84802623338399,Creux,Oui,Bas du dos,Épaule antépulsée,images_patients/patient_212.png,0.06618976400754552,59.08,1.03,89.26,75.1,32.51,70.8
+219,220,29,Femme,168.7658386910315,73.15286655617736,Normal,Oui,Bas droite,Genoux valgum,images_patients/patient_220.png,0.0562699472106616,89.58,74.33,40.85,1.49,62.35,22.6
+220,221,62,Femme,160.124572719905,71.76683383062749,Plat,Oui,Bas droite,Cyphose dorsale,images_patients/patient_221.png,0.06070454747067499,33.13,32.27,65.29,64.99,2.05,51.99
+221,222,45,Femme,169.865559676597,76.94605920665327,Creux,Oui,Haut gauche,Épaule antépulsée,images_patients/patient_222.png,0.06051327936835478,1.09,60.49,74.76,89.6,33.56,70.91
+230,231,61,Femme,158.3682453672083,59.70446826511137,Normal,Oui,Bas du dos,Aucun,images_patients/patient_231.png,0.06861140905128449,72.12,71.64,22.74,21.7,50.32,0.66
+231,232,56,Femme,160.1876612704054,68.9383770156113,Normal,Oui,Bas gauche,Aucun,images_patients/patient_232.png,0.05846779234918603,67.5,79.49,10.67,35.91,52.82,14.71
+239,240,40,Femme,158.6601158572862,63.83621568687768,Plat,Oui,Bas du dos,Hyperlordose lombaire,images_patients/patient_240.png,0.06583372638447921,71.11,71.67,21.87,23.05,49.79,0.7
+242,243,52,Homme,176.0617539963866,79.81043426093605,Creux,Oui,Gauche,Cyphose dorsale,images_patients/patient_243.png,0.06134131125912935,33.56,34.4,62.19,62.49,1.07,49.04
+246,247,47,Femme,157.7518496733346,75.78529798366137,Normal,Oui,Gauche,Aucun,images_patients/patient_247.png,0.06440937314699405,41.03,64.21,35.12,53.48,32.12,32.32
+248,249,22,Homme,166.9879581528782,84.06330857844506,Creux,Oui,Bas droite,Épaule antépulsée,images_patients/patient_249.png,0.06906932950200596,60.55,1.25,91.38,76.85,34.54,72.84
+249,250,21,Homme,180.4534575123693,84.67411185872506,Plat,Oui,Bas du dos,Aucun,images_patients/patient_250.png,0.06890084061490973,69.67,69.89,23.1,23.55,48.0,2.02
+253,254,53,Femme,173.8466204833366,62.22169623708589,Creux,Oui,Haut droite,Cyphose dorsale,images_patients/patient_254.png,0.05935499352124581,34.22,34.78,61.21,61.42,2.07,47.96
+254,255,29,Femme,168.2333803322328,73.81102778883135,Creux,Oui,Bas droite,Épaule antépulsée,images_patients/patient_255.png,0.05819433762271498,59.93,0.09,90.05,75.6,33.45,71.51
+255,256,35,Homme,188.0,97.0,Creux,Oui,Haut gauche,Genoux valgum,images_patients/patient_256.png,0.08450000000000002,74.03,89.19,1.68,40.65,61.97,22.28
+257,258,62,Homme,179.5791067925884,87.68604984621273,Creux,Oui,Bas droite,Hyperlordose lombaire,images_patients/patient_258.png,0.07097560324250696,89.75,74.58,40.79,1.26,62.56,22.65
+258,259,60,Femme,169.9771476487949,65.12954172162948,Creux,Oui,Haut du dos,Cyphose dorsale,images_patients/patient_259.png,0.05838188445397308,33.57,34.49,62.07,62.41,1.19,48.94
+260,261,67,Femme,166.0963910231296,54.28591934950875,Normal,Oui,Droite,Cyphose dorsale,images_patients/patient_261.png,0.07016588513892645,33.42,35.5,61.03,61.8,2.28,48.07
+263,264,57,Homme,179.0,64.0,Plat,Oui,Haut gauche,Cyphose dorsale,images_patients/patient_264.png,0.0595,32.67,33.53,64.07,64.36,1.12,51.02
+264,265,61,Femme,166.2031422174239,68.68020560502708,Creux,Oui,Gauche,Genoux valgum,images_patients/patient_265.png,0.05671822328626095,76.21,91.24,1.18,40.97,64.19,23.52
+265,266,29,Homme,166.8834705419893,74.53501971401714,Plat,Oui,Haut droite,Genoux valgum,images_patients/patient_266.png,0.06009328444302247,88.24,73.58,39.83,2.15,61.15,21.28
+266,267,61,Femme,171.0,62.0,Normal,Oui,Haut gauche,Hyperlordose lombaire,images_patients/patient_267.png,0.06,77.27,91.39,1.61,39.87,64.72,22.98
+267,268,28,Femme,177.0,52.0,Creux,Oui,Bas du dos,Cyphose dorsale,images_patients/patient_268.png,0.07,34.03,34.97,61.14,61.49,2.11,47.96
+271,272,25,Homme,161.0,93.0,Plat,Oui,Haut du dos,Épaule antépulsée,images_patients/patient_272.png,0.08150000000000002,59.61,4.12,93.28,79.65,35.11,75.11
+276,277,23,Homme,164.5531093391653,93.72196005792148,Plat,Oui,Haut du dos,Hyperlordose lombaire,images_patients/patient_277.png,0.08044540538833882,68.84,68.92,23.77,23.93,47.0,3.0
+277,278,39,Femme,169.2529555367967,78.52016151308649,Creux,Oui,Haut du dos,Épaule antépulsée,images_patients/patient_278.png,0.06239368374468812,59.51,1.05,89.09,74.68,32.68,70.54
+279,280,63,Femme,150.0,55.0,Normal,Oui,Bas droite,Cyphose dorsale,images_patients/patient_280.png,0.0775,32.64,35.17,62.06,62.98,1.63,49.24
+281,282,19,Homme,172.1583250239456,82.43465133209939,Plat,Oui,Haut gauche,Hyperlordose lombaire,images_patients/patient_282.png,0.0653554888201266,73.48,88.72,2.2,40.64,61.43,22.04
+283,284,60,Homme,185.0,70.0,Creux,Oui,Bas droite,Épaule antépulsée,images_patients/patient_284.png,0.05600000000000001,61.07,1.76,89.56,74.41,33.89,70.76
+286,287,44,Homme,168.933829743765,91.10013870214513,Creux,Oui,Bas droite,Hyperlordose lombaire,images_patients/patient_287.png,0.07513322383026265,70.88,71.0,22.56,22.82,49.29,0.73
+288,289,18,Femme,161.0426345366676,75.8547073284769,Normal,Oui,Bas droite,Genoux valgum,images_patients/patient_289.png,0.06283339006014312,90.07,75.99,39.48,0.58,63.33,22.01
+289,290,42,Femme,165.5114233971313,73.17231181096443,Normal,Oui,Haut gauche,Aucun,images_patients/patient_290.png,0.05791660011239877,20.05,48.01,60.92,70.57,15.88,53.2
+290,291,42,Homme,177.0,67.0,Creux,Oui,Droite,Cyphose dorsale,images_patients/patient_291.png,0.05500000000000001,35.18,33.72,61.69,61.15,2.11,48.07
+295,296,34,Homme,178.4487272343349,83.3231401239278,Normal,Oui,Bas droite,Épaule antépulsée,images_patients/patient_296.png,0.06504750374109523,60.27,1.19,91.25,76.85,34.3,72.75
+298,299,47,Femme,170.1396521577991,64.3697850839404,Plat,Oui,Bas gauche,Genoux valgum,images_patients/patient_299.png,0.05956038883716006,74.38,88.69,1.48,39.48,61.77,21.28
+299,300,64,Homme,178.4809223298062,88.15011537641803,Normal,Oui,Bas du dos,Aucun,images_patients/patient_300.png,0.06989057654132115,69.93,69.73,23.5,23.09,48.06,1.96
+300,301,20,Homme,174.2230096531622,77.62709006279987,Normal,Oui,Bas du dos,Aucun,images_patients/patient_301.png,0.05801558523621877,70.92,70.22,23.61,22.17,48.88,1.4
+301,302,39,Homme,161.0,62.0,Normal,Oui,Bas du dos,Hyperlordose lombaire,images_patients/patient_302.png,0.065,72.7,73.32,21.01,22.4,51.57,1.74
+303,304,25,Homme,189.1156902212434,92.78160069822265,Creux,Oui,Bas gauche,Hyperlordose lombaire,images_patients/patient_304.png,0.08083944580884435,70.46,70.21,23.27,22.75,48.62,1.42
+305,306,68,Femme,166.7106873355313,69.46805097461868,Normal,Oui,Bas gauche,Genoux valgum,images_patients/patient_306.png,0.05467660535761566,75.1,90.04,0.76,40.57,62.96,22.66
+306,307,64,Homme,186.5403858266049,82.29849399446998,Plat,Oui,Gauche,Épaule antépulsée,images_patients/patient_307.png,0.06956868690777242,2.07,59.43,77.55,91.47,33.95,73.15
+307,308,62,Femme,155.6414416438651,60.52723719030831,Creux,Oui,Bas gauche,Épaule antépulsée,images_patients/patient_308.png,0.07015204198775916,1.95,59.62,73.72,88.33,32.36,69.69
+310,311,28,Femme,162.4160522904434,53.2766910755565,Plat,Oui,Droite,Aucun,images_patients/patient_311.png,0.07451528277922183,62.73,40.73,52.91,35.81,30.75,32.02
+311,312,60,Femme,167.946149192158,59.20616377596104,Creux,Oui,Bas du dos,Aucun,images_patients/patient_312.png,0.06532076162795995,73.61,73.8,21.2,21.65,52.32,2.33
+313,314,31,Femme,162.907636115687,71.15923436930046,Normal,Oui,Droite,Aucun,images_patients/patient_314.png,0.05720541631145697,64.57,41.66,53.03,34.49,32.59,31.8
+316,317,65,Homme,176.0,90.0,Normal,Oui,Haut du dos,Cyphose dorsale,images_patients/patient_317.png,0.07050000000000001,31.9,33.37,65.05,65.54,2.3,52.16
+318,319,48,Femme,171.0,72.0,Normal,Oui,Bas du dos,Genoux valgum,images_patients/patient_319.png,0.05400000000000001,90.02,75.83,39.62,0.4,63.23,22.07
+321,322,69,Homme,190.0,73.0,Normal,Oui,Bas gauche,Aucun,images_patients/patient_322.png,0.06050000000000001,65.49,78.24,12.15,37.01,51.15,15.32
+324,325,48,Homme,191.0,91.0,Normal,Oui,Droite,Aucun,images_patients/patient_325.png,0.07900000000000001,63.04,39.49,54.42,36.77,30.73,33.49
+326,327,21,Homme,182.7857837093364,90.07449690344146,Creux,Oui,Gauche,Hyperlordose lombaire,images_patients/patient_327.png,0.07496738875810965,74.09,88.35,1.83,39.34,61.43,21.01
+328,329,61,Femme,167.1484283335569,66.59290361524602,Normal,Oui,Haut droite,Aucun,images_patients/patient_329.png,0.05733288221797553,47.21,22.18,68.47,59.42,14.5,51.25
+330,331,18,Homme,175.0,101.0,Normal,Oui,Gauche,Aucun,images_patients/patient_331.png,0.081,38.02,62.91,38.09,55.91,30.32,35.03
+332,333,70,Homme,176.0,76.0,Creux,Oui,Bas du dos,Épaule antépulsée,images_patients/patient_333.png,0.0575,60.12,0.87,89.49,74.82,33.27,70.86
+335,336,60,Homme,186.0498242169478,72.67256413009602,Plat,Oui,Bas droite,Cyphose dorsale,images_patients/patient_336.png,0.05969747623856992,33.94,32.32,64.42,63.87,1.3,50.95
+338,339,18,Homme,175.0,91.0,Creux,Oui,Haut gauche,Genoux valgum,images_patients/patient_339.png,0.07200000000000001,74.87,89.28,0.89,39.73,62.36,21.74
+339,340,31,Homme,169.950295543118,76.88353394815658,Plat,Oui,Haut droite,Cyphose dorsale,images_patients/patient_340.png,0.06090838617659759,32.97,32.79,64.74,64.68,1.55,51.54
+340,341,24,Femme,162.4222518978575,66.01329656291668,Plat,Oui,Bas du dos,Épaule antépulsée,images_patients/patient_341.png,0.06177557748815456,59.92,1.84,91.61,77.47,34.3,73.21
+342,343,49,Homme,176.2587955918024,91.00467057298738,Creux,Oui,Bas gauche,Hyperlordose lombaire,images_patients/patient_343.png,0.0726340683688886,70.29,70.25,23.09,23.01,48.54,1.46
+347,348,33,Femme,174.9944646650404,79.58801258068141,Plat,Oui,Bas droite,Épaule antépulsée,images_patients/patient_348.png,0.0610907802481612,59.23,2.7,91.85,78.12,34.06,73.61
+350,351,69,Femme,173.1796484321491,55.98654097285513,Plat,Oui,Haut du dos,Cyphose dorsale,images_patients/patient_351.png,0.06642363481107033,33.36,34.36,62.41,62.77,0.9,49.31
+351,352,27,Homme,176.3552294031272,87.43151746676399,Creux,Oui,Bas du dos,Hyperlordose lombaire,images_patients/patient_352.png,0.06910913216832759,90.06,75.1,40.6,0.77,62.97,22.69
+352,353,26,Femme,168.4685302519319,60.32229245164498,Normal,Oui,Bas droite,Genoux valgum,images_patients/patient_353.png,0.06294344242238907,90.22,76.36,39.24,0.97,63.58,21.96
+353,354,41,Homme,182.8769384273107,76.73109346099461,Plat,Oui,Gauche,Cyphose dorsale,images_patients/patient_354.png,0.06216956267464998,32.84,32.59,65.15,65.07,1.96,51.96
+355,356,42,Homme,164.0,71.0,Plat,Oui,Haut gauche,Aucun,images_patients/patient_356.png,0.058,19.86,47.1,61.94,71.09,15.31,53.95
+356,357,23,Homme,161.0,83.0,Plat,Oui,Haut du dos,Cyphose dorsale,images_patients/patient_357.png,0.07150000000000001,32.68,31.56,66.78,66.42,3.58,53.53
+362,363,61,Femme,162.0682443074519,69.0709835056659,Plat,Oui,Bas gauche,Épaule antépulsée,images_patients/patient_363.png,0.05889489434060814,1.87,61.1,77.32,92.0,35.2,73.42
+367,368,45,Femme,153.0,51.0,Plat,Oui,Haut droite,Hyperlordose lombaire,images_patients/patient_368.png,0.0815,72.02,72.26,21.84,22.35,50.61,0.67
+371,372,43,Homme,177.2660445016121,72.37059885816994,Normal,Oui,Haut gauche,Hyperlordose lombaire,images_patients/patient_372.png,0.05350362110897601,75.66,90.34,0.31,40.3,63.38,22.65
+382,383,38,Homme,159.0,95.0,Plat,Oui,Bas du dos,Hyperlordose lombaire,images_patients/patient_383.png,0.08450000000000002,67.22,67.25,24.87,24.92,45.17,4.83
+384,385,41,Homme,174.0,92.0,Creux,Oui,Droite,Cyphose dorsale,images_patients/patient_385.png,0.07350000000000001,32.74,33.27,64.33,64.51,1.27,51.23
+386,387,56,Homme,168.0,85.0,Plat,Oui,Droite,Hyperlordose lombaire,images_patients/patient_387.png,0.07,68.15,68.54,23.81,24.56,46.41,3.62
+393,394,28,Homme,183.0,95.0,Creux,Oui,Gauche,Genoux valgum,images_patients/patient_394.png,0.08000000000000002,74.84,89.2,0.96,39.64,62.29,21.64
+394,395,21,Homme,175.1964540705547,79.21852686638282,Creux,Oui,Haut droite,Épaule antépulsée,images_patients/patient_395.png,0.06031675390166016,59.9,0.13,90.01,75.57,33.41,71.47
+396,397,56,Femme,159.4817753236353,66.43489662931582,Plat,Oui,Bas droite,Aucun,images_patients/patient_397.png,0.06282421570886652,77.61,65.74,35.97,12.61,50.83,14.23
+397,398,47,Homme,176.5641364001747,62.25168583267718,Normal,Oui,Haut droite,Épaule antépulsée,images_patients/patient_398.png,0.05853038236741016,60.25,0.28,90.38,75.82,33.82,71.81
+399,400,46,Femme,165.7601354832671,63.28620326406493,Normal,Oui,Droite,Épaule antépulsée,images_patients/patient_400.png,0.06133372899430151,59.99,1.62,88.78,74.06,32.82,70.11
+403,404,37,Femme,158.9433219636336,77.6630900849214,Creux,Oui,Haut gauche,Genoux valgum,images_patients/patient_404.png,0.0666914291031046,75.78,90.35,0.22,40.17,63.43,22.58
+404,405,38,Homme,171.0,92.0,Plat,Oui,Bas droite,Aucun,images_patients/patient_405.png,0.07550000000000001,74.7,62.47,36.99,15.81,47.49,14.73
+406,407,24,Homme,171.0,93.0,Plat,Oui,Gauche,Cyphose dorsale,images_patients/patient_407.png,0.07650000000000001,32.23,31.93,66.76,66.66,3.64,53.64
+407,408,54,Homme,185.0,87.0,Plat,Oui,Haut du dos,Aucun,images_patients/patient_408.png,0.07350000000000001,33.24,30.98,67.0,66.28,3.76,53.57
+408,409,30,Femme,165.0,67.0,Normal,Oui,Bas du dos,Cyphose dorsale,images_patients/patient_409.png,0.05800000000000001,33.97,32.91,63.65,63.28,0.63,50.23
+409,410,23,Femme,167.816193777453,84.2425622621104,Creux,Oui,Haut du dos,Genoux valgum,images_patients/patient_410.png,0.06883446537338389,90.43,75.68,40.42,0.43,63.45,22.77
+410,411,64,Homme,191.0,70.0,Creux,Oui,Droite,Cyphose dorsale,images_patients/patient_411.png,0.059,34.31,33.04,63.2,62.74,0.77,49.71
+412,413,61,Homme,179.001773332151,76.66963934523544,Creux,Oui,Haut du dos,Épaule antépulsée,images_patients/patient_413.png,0.05967052601131093,60.19,0.25,90.38,75.85,33.78,71.81
+416,417,31,Femme,155.0,50.0,Normal,Oui,Droite,Hyperlordose lombaire,images_patients/patient_417.png,0.08000000000000002,74.03,74.56,20.58,21.82,52.97,3.04
+417,418,46,Homme,185.1218708128006,87.26995090451163,Plat,Oui,Bas gauche,Aucun,images_patients/patient_418.png,0.07383088631091192,63.9,77.0,13.6,37.62,49.65,15.63
+422,423,31,Homme,169.5001521674384,72.76906915401563,Plat,Oui,Droite,Épaule antépulsée,images_patients/patient_423.png,0.05701899307029645,59.4,1.19,90.66,76.6,33.47,72.27
+424,425,35,Homme,172.0,98.0,Plat,Oui,Haut du dos,Hyperlordose lombaire,images_patients/patient_425.png,0.08100000000000002,67.25,66.59,25.71,24.52,44.82,5.24
+426,427,50,Femme,150.0,83.0,Creux,Oui,Gauche,Genoux valgum,images_patients/patient_427.png,0.0765,75.07,90.53,1.42,41.35,63.27,23.39
+428,429,48,Homme,185.19279863858,97.7663047269489,Creux,Oui,Haut gauche,Hyperlordose lombaire,images_patients/patient_429.png,0.08386270404623893,74.18,89.12,1.49,40.36,61.98,22.06
+429,430,52,Femme,157.0,67.0,Creux,Oui,Bas gauche,Hyperlordose lombaire,images_patients/patient_430.png,0.063,72.05,72.06,22.12,22.15,50.51,0.51
+430,431,69,Femme,173.0,62.0,Creux,Oui,Bas du dos,Genoux valgum,images_patients/patient_431.png,0.06,91.75,78.22,39.24,2.6,65.34,22.86
+431,432,61,Homme,182.0,74.0,Creux,Oui,Bas droite,Hyperlordose lombaire,images_patients/patient_432.png,0.05850000000000001,90.08,75.97,39.52,0.54,63.33,22.04
+436,437,53,Homme,173.2289310086518,88.88169818128502,Plat,Oui,Droite,Aucun,images_patients/patient_437.png,0.0712672326769591,61.29,37.2,55.87,39.23,28.68,35.29
+439,440,21,Femme,160.0,64.0,Plat,Oui,Bas du dos,Aucun,images_patients/patient_440.png,0.065,71.13,71.76,21.76,23.11,49.84,0.77
+445,446,27,Homme,180.1305671061003,73.5757904751518,Normal,Oui,Haut du dos,Cyphose dorsale,images_patients/patient_446.png,0.05614107402820197,33.48,33.36,63.53,63.49,0.29,50.28
+447,448,69,Femme,177.0,54.0,Normal,Oui,Haut gauche,Genoux valgum,images_patients/patient_448.png,0.067,77.19,91.93,1.81,40.8,65.05,23.81
+448,449,37,Homme,166.0,93.0,Plat,Oui,Bas du dos,Aucun,images_patients/patient_449.png,0.07900000000000001,67.52,68.47,23.53,25.3,46.02,4.13
+450,451,29,Femme,159.6131179568068,74.70692431935319,Normal,Oui,Haut gauche,Genoux valgum,images_patients/patient_451.png,0.0624003653409498,76.07,90.15,0.6,39.5,63.41,22.07
+452,453,53,Homme,171.6547909799619,86.06587818077139,Plat,Oui,Haut droite,Cyphose dorsale,images_patients/patient_453.png,0.06923848269079044,31.81,33.02,65.65,66.04,2.81,52.73
+454,455,37,Homme,168.0,88.0,Plat,Oui,Bas droite,Genoux valgum,images_patients/patient_455.png,0.07300000000000001,87.29,72.79,39.46,3.07,60.2,20.58
+456,457,62,Homme,173.0228963700299,86.91202803929616,Plat,Oui,Droite,Hyperlordose lombaire,images_patients/patient_457.png,0.06940057985428119,68.03,68.22,24.14,24.5,46.17,3.84
+457,458,29,Femme,157.028160217301,63.62779624482833,Plat,Oui,Gauche,Aucun,images_patients/patient_458.png,0.06685812364652116,41.01,63.78,35.26,53.23,31.74,32.14
+458,459,23,Homme,190.0,80.0,Creux,Oui,Haut du dos,Hyperlordose lombaire,images_patients/patient_459.png,0.0685,89.59,75.33,39.6,0.56,62.75,21.83
+459,460,23,Femme,173.0,64.0,Normal,Oui,Haut du dos,Cyphose dorsale,images_patients/patient_460.png,0.057,35.0,33.53,62.06,61.51,1.76,48.46
+460,461,35,Femme,164.6166168561907,65.77821947257625,Normal,Oui,Bas droite,Genoux valgum,images_patients/patient_461.png,0.05941347209932839,90.72,76.44,39.91,0.77,63.94,22.63
+461,462,25,Femme,151.0,71.0,Plat,Oui,Haut gauche,Cyphose dorsale,images_patients/patient_462.png,0.0645,32.71,32.26,65.73,65.58,2.55,52.54
+466,467,23,Femme,160.913722154268,76.14929745529261,Plat,Oui,Droite,Aucun,images_patients/patient_467.png,0.06469243637815862,63.13,39.32,54.66,36.89,30.78,33.71
+468,469,18,Femme,165.0,69.0,Creux,Oui,Droite,Épaule antépulsée,images_patients/patient_469.png,0.05700000000000001,59.91,2.1,88.33,73.57,32.54,69.64
+469,470,41,Homme,170.0,85.0,Normal,Oui,Haut du dos,Cyphose dorsale,images_patients/patient_470.png,0.0675,33.89,32.73,63.95,63.55,0.84,50.53
+470,471,24,Homme,181.0472698298993,82.90307731408332,Normal,Oui,Bas droite,Hyperlordose lombaire,images_patients/patient_471.png,0.06592671222903299,70.97,71.37,22.16,22.99,49.54,0.66
+472,473,26,Homme,182.8215660264556,83.11840654884924,Normal,Oui,Bas gauche,Genoux valgum,images_patients/patient_473.png,0.06702918956207704,73.76,88.61,1.91,40.15,61.47,21.67
+474,475,63,Femme,163.8051330940893,67.25190236795927,Creux,Oui,Haut droite,Genoux valgum,images_patients/patient_475.png,0.05934553108499606,91.94,77.43,40.53,1.9,65.14,23.66
+477,478,32,Femme,159.3593470332978,63.16071293752356,Normal,Oui,Bas du dos,Genoux valgum,images_patients/patient_478.png,0.06465961354582754,90.9,76.32,40.34,0.77,64.01,22.97
+479,480,23,Femme,169.0,79.0,Creux,Oui,Bas gauche,Cyphose dorsale,images_patients/patient_480.png,0.063,33.01,34.94,62.01,62.71,1.44,49.07
+480,481,33,Femme,158.4402535381126,70.76114779877155,Creux,Oui,Haut gauche,Cyphose dorsale,images_patients/patient_481.png,0.06004102102971526,34.07,33.91,62.34,62.28,0.99,49.01
+481,482,55,Femme,167.0,73.0,Plat,Oui,Bas du dos,Genoux valgum,images_patients/patient_482.png,0.05850000000000001,88.07,74.07,38.96,2.07,61.23,20.63
+483,484,57,Femme,154.4386883431774,78.41405461799036,Plat,Oui,Bas du dos,Épaule antépulsée,images_patients/patient_484.png,0.07019471044640167,59.3,3.1,92.23,78.54,34.33,74.01
+487,488,33,Femme,174.0,75.0,Creux,Oui,Gauche,Hyperlordose lombaire,images_patients/patient_488.png,0.05650000000000001,72.57,72.08,22.54,21.48,50.81,1.0
+491,492,44,Femme,171.9018585756448,64.6543045065714,Creux,Oui,Gauche,Épaule antépulsée,images_patients/patient_492.png,0.05789476620560621,0.75,60.36,75.05,89.79,33.57,71.14
+495,496,57,Femme,164.0556144892121,72.67591600692019,Creux,Oui,Bas du dos,Genoux valgum,images_patients/patient_496.png,0.05914810876231415,90.17,76.69,38.75,1.53,63.68,21.66
+496,497,51,Homme,174.6805901955271,88.32146709112028,Plat,Oui,Haut du dos,Aucun,images_patients/patient_497.png,0.06998117199335671,33.08,31.78,66.02,65.6,2.78,52.7
+497,498,46,Femme,169.2901113971191,70.79771094401106,Normal,Oui,Bas gauche,Hyperlordose lombaire,images_patients/patient_498.png,0.05365265524545153,72.28,71.88,22.57,21.68,50.54,0.73
+498,499,53,Homme,191.0,81.0,Plat,Oui,Haut gauche,Hyperlordose lombaire,images_patients/patient_499.png,0.07050000000000001,69.7,68.75,24.59,22.73,47.39,2.84
+499,500,47,Homme,169.0,99.0,Normal,Oui,Haut droite,Épaule antépulsée,images_patients/patient_500.png,0.082,59.96,2.61,92.27,78.24,34.7,73.93
+501,502,55,Homme,177.1023597723179,88.58577854404652,Creux,Oui,Gauche,Aucun,images_patients/patient_502.png,0.07063695843020548,40.87,62.99,35.61,52.92,31.01,31.97
+502,503,30,Femme,181.0,56.0,Creux,Oui,Bas du dos,Aucun,images_patients/patient_503.png,0.068,74.97,74.31,21.86,20.3,53.35,3.44
+503,504,60,Femme,155.0,83.0,Plat,Oui,Haut droite,Cyphose dorsale,images_patients/patient_504.png,0.07450000000000001,32.82,32.5,65.29,65.18,2.1,52.09
+506,507,55,Homme,177.0,95.0,Normal,Oui,Bas du dos,Aucun,images_patients/patient_507.png,0.07600000000000001,68.98,69.62,22.97,24.24,47.47,2.64
+507,508,19,Femme,169.9321677413085,65.87626576791503,Creux,Oui,Bas du dos,Genoux valgum,images_patients/patient_508.png,0.05765765036143073,91.51,77.82,39.37,2.19,65.02,22.79
+508,509,55,Homme,172.9979078371867,86.978691587912,Plat,Oui,Gauche,Aucun,images_patients/patient_509.png,0.06947973766931864,38.69,62.82,37.52,55.14,30.36,34.26
+509,510,64,Homme,175.9329158796278,88.21981090225968,Creux,Oui,Gauche,Hyperlordose lombaire,images_patients/patient_510.png,0.0696862688420736,70.28,69.74,23.74,22.65,48.26,1.86
+511,512,35,Femme,171.0,66.0,Plat,Oui,Droite,Aucun,images_patients/patient_512.png,0.05750000000000001,64.02,40.88,53.53,35.31,31.92,32.4
+512,513,23,Homme,174.7591743628238,77.7632076194301,Creux,Oui,Haut droite,Cyphose dorsale,images_patients/patient_513.png,0.0588836204380182,33.08,34.23,62.8,63.21,0.7,49.75
+513,514,60,Femme,175.0,73.0,Creux,Oui,Gauche,Épaule antépulsée,images_patients/patient_514.png,0.05400000000000001,1.77,59.27,73.97,88.38,32.17,69.81
+514,515,53,Femme,173.0,79.0,Plat,Oui,Haut gauche,Épaule antépulsée,images_patients/patient_515.png,0.06150000000000001,3.43,60.65,79.09,93.28,35.66,74.9
+518,519,43,Homme,183.0,85.0,Normal,Oui,Bas gauche,Genoux valgum,images_patients/patient_519.png,0.069,73.72,88.91,1.97,40.63,61.65,22.13
+519,520,47,Femme,157.8443970511949,66.47815134796336,Normal,Oui,Bas gauche,Cyphose dorsale,images_patients/patient_520.png,0.06209965012643921,33.78,34.4,62.0,62.23,1.24,48.81
+523,524,45,Homme,182.0,64.0,Normal,Oui,Haut gauche,Hyperlordose lombaire,images_patients/patient_524.png,0.0595,73.43,72.55,22.71,20.74,51.55,1.87
+531,532,36,Femme,160.4459368112634,73.08783203854935,Normal,Oui,Haut du dos,Hyperlordose lombaire,images_patients/patient_532.png,0.06036486363291768,89.81,75.49,39.73,0.35,62.96,22.02
+533,534,36,Femme,150.0,61.0,Plat,Oui,Bas gauche,Cyphose dorsale,images_patients/patient_534.png,0.07300000000000001,32.06,34.35,63.6,64.39,1.49,50.79
+535,536,59,Homme,171.0,68.0,Plat,Oui,Haut du dos,Genoux valgum,images_patients/patient_536.png,0.05550000000000001,89.17,75.09,39.27,1.0,62.37,21.4
+536,537,48,Femme,169.1093803745673,64.39374145319418,Normal,Oui,Haut du dos,Cyphose dorsale,images_patients/patient_537.png,0.05855156835952218,33.54,34.6,61.97,62.35,1.3,48.86
+537,538,47,Homme,175.9463530088184,91.62645765839976,Normal,Oui,Haut du dos,Aucun,images_patients/patient_538.png,0.07209963416280898,32.95,31.92,65.95,65.61,2.72,52.67
+539,540,69,Femme,152.0,81.0,Plat,Oui,Haut du dos,Cyphose dorsale,images_patients/patient_540.png,0.07400000000000001,31.39,34.06,64.65,65.55,2.42,51.96
+541,542,64,Homme,179.6509946218883,90.67746277988167,Normal,Oui,Haut gauche,Hyperlordose lombaire,images_patients/patient_542.png,0.07300296009082582,73.2,88.67,2.53,40.94,61.29,22.22
+542,543,36,Homme,176.8696227781461,68.48490138940481,Creux,Oui,Bas du dos,Épaule antépulsée,images_patients/patient_543.png,0.05344990999966825,59.37,0.98,89.17,74.84,32.64,70.65
+546,547,64,Femme,160.4182955982694,66.06080087568914,Creux,Oui,Bas droite,Hyperlordose lombaire,images_patients/patient_547.png,0.06223005132517615,73.02,73.97,20.43,22.6,52.1,2.39
+547,548,46,Femme,160.6012674262487,73.67635843722732,Normal,Oui,Haut gauche,Aucun,images_patients/patient_548.png,0.06087572472410296,21.41,47.61,59.86,69.2,15.08,51.89
+548,549,22,Homme,180.147264780732,87.22930900445918,Normal,Oui,Haut du dos,Aucun,images_patients/patient_549.png,0.0698029413948252,33.36,31.88,65.59,65.1,2.34,52.21
+549,550,44,Homme,167.0,79.0,Plat,Oui,Gauche,Genoux valgum,images_patients/patient_550.png,0.0645,72.17,87.95,3.54,41.2,60.41,22.07
+550,551,24,Homme,171.3631695623214,78.20675729374136,Normal,Oui,Droite,Aucun,images_patients/patient_551.png,0.06002517251258067,64.04,40.51,53.94,35.62,31.86,32.81
+551,552,24,Femme,169.0750273439694,59.94963399171598,Plat,Oui,Gauche,Aucun,images_patients/patient_552.png,0.0645128523362993,40.38,62.84,36.07,53.35,30.76,32.44
+553,554,36,Homme,181.3485686148607,68.80001855822259,Normal,Oui,Bas gauche,Genoux valgum,images_patients/patient_554.png,0.05437426574920776,75.77,90.52,0.47,40.44,63.54,22.83
+554,555,39,Femme,158.0715619591712,65.21816179597188,Plat,Oui,Haut gauche,Épaule antépulsée,images_patients/patient_555.png,0.06474605722444253,0.47,59.87,76.09,90.44,33.62,71.94
+555,556,41,Homme,162.0,90.0,Plat,Oui,Haut droite,Hyperlordose lombaire,images_patients/patient_556.png,0.07800000000000001,68.32,68.94,23.42,24.6,46.73,3.35
+556,557,49,Homme,170.0,72.0,Plat,Oui,Bas du dos,Cyphose dorsale,images_patients/patient_557.png,0.05600000000000001,33.48,32.93,64.06,63.87,0.82,50.76
+558,559,42,Homme,179.2963167841265,79.95785956697028,Creux,Oui,Droite,Aucun,images_patients/patient_559.png,0.06310601795903353,63.33,41.26,52.69,35.18,31.41,31.68
+559,560,62,Femme,167.9216532138637,72.9124965088316,Normal,Oui,Bas droite,Genoux valgum,images_patients/patient_560.png,0.05645166990189972,89.44,75.1,39.67,0.7,62.56,21.79
+561,562,24,Femme,162.3750092987836,60.5830165701528,Plat,Oui,Bas droite,Genoux valgum,images_patients/patient_562.png,0.0672294787804554,89.92,74.97,40.55,0.83,62.83,22.58
+564,565,58,Femme,154.3894746088086,69.04333927920746,Plat,Oui,Haut droite,Aucun,images_patients/patient_565.png,0.06276192341638824,47.7,20.48,70.19,60.74,15.48,52.88
+566,567,56,Homme,180.7769920973832,82.90539567908593,Normal,Oui,Haut droite,Hyperlordose lombaire,images_patients/patient_567.png,0.06579389172777751,71.18,71.36,22.33,22.71,49.65,0.41
+570,571,45,Femme,151.0,80.0,Creux,Oui,Haut du dos,Épaule antépulsée,images_patients/patient_571.png,0.07300000000000001,60.13,0.21,90.35,75.84,33.73,71.79
+571,572,24,Femme,165.545444432347,60.07064094235168,Normal,Oui,Bas gauche,Cyphose dorsale,images_patients/patient_572.png,0.06465663684147485,34.57,33.49,62.44,62.05,1.22,48.94
+575,576,58,Femme,161.9819444113797,70.34166746884631,Normal,Oui,Haut du dos,Genoux valgum,images_patients/patient_576.png,0.05685069526315646,90.49,76.67,39.26,1.18,63.88,22.13
+577,578,56,Femme,171.0,80.0,Plat,Oui,Bas droite,Hyperlordose lombaire,images_patients/patient_578.png,0.0635,88.53,73.73,40.05,1.95,61.4,21.57
+580,581,24,Homme,183.6153318673601,88.80017571318447,Normal,Oui,Haut du dos,Genoux valgum,images_patients/patient_581.png,0.07310784164686454,89.09,74.51,39.9,1.19,62.09,21.75
+582,583,19,Homme,181.4388256334045,79.68799327011263,Plat,Oui,Haut droite,Cyphose dorsale,images_patients/patient_583.png,0.06440740608681486,33.1,32.08,65.58,65.24,2.34,52.28
+584,585,19,Homme,173.4886568423814,74.99573858141352,Normal,Oui,Haut du dos,Cyphose dorsale,images_patients/patient_585.png,0.05575141016022282,33.83,32.57,64.2,63.77,1.04,50.78
+586,587,43,Homme,172.8318629462557,76.88747580624073,Creux,Oui,Haut droite,Genoux valgum,images_patients/patient_587.png,0.05897154433311291,90.46,75.9,40.19,0.33,63.56,22.65
+587,588,48,Homme,180.713810922593,91.8440751151304,Creux,Oui,Bas droite,Genoux valgum,images_patients/patient_588.png,0.07570098057642692,89.77,74.42,41.02,1.51,62.51,22.8
+588,589,31,Femme,178.0,85.0,Normal,Oui,Gauche,Aucun,images_patients/patient_589.png,0.0665,39.1,62.59,37.23,54.57,30.24,33.72
+590,591,67,Homme,177.0,73.0,Normal,Oui,Haut gauche,Genoux valgum,images_patients/patient_591.png,0.05400000000000001,75.62,89.43,1.02,39.0,62.76,21.38
+593,594,41,Homme,160.0,74.0,Plat,Oui,Haut gauche,Aucun,images_patients/patient_594.png,0.063,19.44,46.56,62.95,71.8,15.17,54.81
+594,595,24,Femme,179.0,61.0,Normal,Oui,Gauche,Cyphose dorsale,images_patients/patient_595.png,0.06100000000000001,34.31,34.26,61.74,61.72,1.6,48.4
+595,596,34,Homme,186.0,70.0,Creux,Oui,Bas droite,Hyperlordose lombaire,images_patients/patient_596.png,0.0565,71.9,71.95,22.14,22.25,50.37,0.38
+596,597,58,Homme,181.0,94.0,Normal,Oui,Haut du dos,Épaule antépulsée,images_patients/patient_597.png,0.07700000000000001,60.6,2.76,92.7,78.42,35.3,74.28
+597,598,48,Homme,161.0,81.0,Normal,Oui,Bas droite,Épaule antépulsée,images_patients/patient_598.png,0.068,59.83,0.5,90.43,76.11,33.6,71.94
+598,599,50,Femme,160.0,50.0,Creux,Oui,Bas droite,Genoux valgum,images_patients/patient_599.png,0.07850000000000001,93.05,79.15,40.1,3.51,66.57,24.09
+603,604,59,Homme,187.0,83.0,Normal,Oui,Gauche,Aucun,images_patients/patient_604.png,0.069,40.97,62.67,35.63,52.63,30.76,31.74
+606,607,36,Homme,169.0,96.0,Plat,Oui,Droite,Genoux valgum,images_patients/patient_607.png,0.08050000000000002,86.36,71.14,40.24,4.57,58.92,20.7
+608,609,46,Femme,160.0,60.0,Creux,Oui,Bas du dos,Aucun,images_patients/patient_609.png,0.0685,73.84,73.63,21.64,21.18,52.36,2.37
+609,610,35,Femme,157.8609463700728,78.27409918945727,Creux,Oui,Haut droite,Épaule antépulsée,images_patients/patient_610.png,0.06784362600442087,60.09,0.09,90.21,75.7,33.63,71.65
+611,612,25,Homme,167.0,71.0,Creux,Oui,Gauche,Cyphose dorsale,images_patients/patient_612.png,0.05600000000000001,32.77,34.79,62.4,63.12,1.25,49.49
+612,613,51,Homme,183.9204603156923,79.4957493706815,Creux,Oui,Haut du dos,Épaule antépulsée,images_patients/patient_613.png,0.06495597952852765,60.37,0.71,90.85,76.32,34.14,72.3
+614,615,42,Homme,161.0,60.0,Creux,Oui,Bas droite,Épaule antépulsée,images_patients/patient_615.png,0.068,59.32,2.05,88.14,73.66,32.07,69.54
+615,616,60,Femme,153.0,87.0,Normal,Oui,Haut gauche,Genoux valgum,images_patients/patient_616.png,0.078,73.9,89.47,2.02,41.23,62.1,22.8
+616,617,56,Homme,187.0,87.0,Normal,Oui,Bas du dos,Épaule antépulsée,images_patients/patient_617.png,0.07300000000000001,59.67,1.25,90.96,76.81,33.8,72.54
+617,618,28,Femme,162.8652268063479,63.28054917862237,Creux,Oui,Haut du dos,Épaule antépulsée,images_patients/patient_618.png,0.06378683741820365,59.89,0.98,89.26,74.68,33.01,70.65
+618,619,34,Femme,176.0,79.0,Creux,Oui,Haut droite,Genoux valgum,images_patients/patient_619.png,0.06050000000000001,90.1,75.85,39.7,0.34,63.29,22.16
+619,620,18,Homme,177.9248871271569,73.58143517846572,Plat,Oui,Bas droite,Épaule antépulsée,images_patients/patient_620.png,0.05654387874204419,61.04,2.19,92.31,77.72,35.34,73.77
+620,621,48,Homme,181.0,93.0,Plat,Oui,Bas du dos,Hyperlordose lombaire,images_patients/patient_621.png,0.07750000000000001,68.63,68.92,23.63,24.2,46.89,3.13
+621,622,61,Femme,152.0,61.0,Plat,Oui,Bas gauche,Épaule antépulsée,images_patients/patient_622.png,0.07200000000000001,1.69,60.6,77.31,91.78,34.79,73.27
+622,623,36,Femme,178.0,73.0,Normal,Oui,Bas gauche,Cyphose dorsale,images_patients/patient_623.png,0.05450000000000001,33.04,34.09,63.01,63.38,0.59,49.95
+623,624,53,Femme,170.2037966460829,75.02099049979931,Normal,Oui,Bas droite,Épaule antépulsée,images_patients/patient_624.png,0.05741909217675784,60.39,0.68,90.82,76.28,34.14,72.26
+624,625,22,Femme,165.5142371131834,73.32681289731111,Normal,Oui,Gauche,Épaule antépulsée,images_patients/patient_625.png,0.05806969434071942,1.17,59.31,76.5,90.53,33.35,72.15
+625,626,20,Homme,178.6373695137759,68.47274514102065,Plat,Oui,Haut gauche,Aucun,images_patients/patient_626.png,0.0548459396158673,19.88,46.88,62.13,71.15,15.15,54.06
+626,627,65,Femme,159.7466819692484,71.11523090237411,Creux,Oui,Bas du dos,Genoux valgum,images_patients/patient_627.png,0.05974188991774993,90.83,76.83,39.57,1.2,64.17,22.5
+627,628,59,Homme,176.0,85.0,Creux,Oui,Bas gauche,Genoux valgum,images_patients/patient_628.png,0.0665,75.56,90.19,0.22,40.21,63.23,22.51
+632,633,33,Homme,188.0,93.0,Plat,Oui,Haut gauche,Hyperlordose lombaire,images_patients/patient_633.png,0.08100000000000002,72.96,87.12,3.09,39.0,60.16,20.19
+636,637,19,Femme,179.0,89.0,Creux,Oui,Haut gauche,Aucun,images_patients/patient_637.png,0.07200000000000001,21.76,46.72,60.26,69.07,14.25,51.97
+637,638,69,Femme,154.579046597773,68.77802540292551,Plat,Oui,Droite,Aucun,images_patients/patient_638.png,0.06293245129818799,62.26,40.39,53.01,36.25,30.25,32.21
+641,642,18,Femme,169.1637770626508,68.99300393228226,Plat,Oui,Gauche,Cyphose dorsale,images_patients/patient_642.png,0.05542510753639233,33.66,32.9,63.94,63.68,0.73,50.6
+642,643,19,Homme,176.2665650681353,77.6928875461353,Plat,Oui,Haut gauche,Cyphose dorsale,images_patients/patient_643.png,0.05982617008020297,33.19,31.31,66.57,65.96,3.33,53.18
+643,644,36,Femme,171.0,77.0,Creux,Oui,Droite,Épaule antépulsée,images_patients/patient_644.png,0.06,59.67,1.29,88.91,74.39,32.69,70.31
+644,645,22,Femme,158.4034346543368,76.19712929319408,Plat,Oui,Droite,Hyperlordose lombaire,images_patients/patient_645.png,0.06599541196602568,69.56,70.29,22.52,23.97,48.17,2.02
+645,646,45,Homme,183.0002283316928,90.22539046102614,Creux,Oui,Droite,Épaule antépulsée,images_patients/patient_646.png,0.07522550462687255,59.77,0.53,90.4,76.1,33.55,71.92
+652,653,31,Femme,150.0,66.0,Creux,Oui,Gauche,Hyperlordose lombaire,images_patients/patient_653.png,0.0675,71.93,72.55,21.38,22.73,50.72,1.03
+653,654,42,Femme,156.7325823782685,65.53011298864396,Normal,Oui,Gauche,Aucun,images_patients/patient_654.png,0.0636035958222218,42.59,64.92,33.6,52.25,33.13,30.94
+655,656,54,Homme,177.4240173358931,72.11451037616865,Normal,Oui,Haut droite,Hyperlordose lombaire,images_patients/patient_656.png,0.05332651904411519,91.06,76.28,40.61,0.93,64.1,23.22
+657,658,33,Femme,162.5773586083361,68.06744353759711,Plat,Oui,Droite,Cyphose dorsale,images_patients/patient_658.png,0.05964387715823484,33.55,33.16,63.71,63.57,0.47,50.42
+659,660,46,Homme,176.4472196862982,79.09876598481853,Creux,Oui,Haut droite,Cyphose dorsale,images_patients/patient_660.png,0.06082237582796764,33.61,34.15,62.44,62.64,0.8,49.26
+660,661,59,Homme,172.2131070092956,75.07403362336623,Creux,Oui,Bas du dos,Hyperlordose lombaire,images_patients/patient_661.png,0.05746748011871843,71.6,72.16,21.62,22.83,50.32,0.74
+663,664,59,Femme,180.0,79.0,Plat,Oui,Bas du dos,Cyphose dorsale,images_patients/patient_664.png,0.063,32.88,32.31,65.49,65.3,2.28,52.26
+667,668,60,Femme,157.0,60.0,Plat,Oui,Haut du dos,Cyphose dorsale,images_patients/patient_668.png,0.07050000000000001,33.49,33.92,62.83,62.98,0.43,49.64
+668,669,44,Homme,165.0,64.0,Plat,Oui,Bas droite,Genoux valgum,images_patients/patient_669.png,0.0625,89.57,75.13,39.82,0.59,62.65,21.95
+669,670,55,Femme,164.3803337870958,74.7037686822454,Creux,Oui,Droite,Épaule antépulsée,images_patients/patient_670.png,0.06101360178869749,60.14,0.31,89.99,75.41,33.55,71.4
+671,672,70,Homme,177.1723494892253,82.64190978927462,Plat,Oui,Bas droite,Épaule antépulsée,images_patients/patient_672.png,0.06522808453388726,59.49,2.34,91.73,77.84,34.13,73.43
+672,673,65,Homme,179.4408993642205,80.87293804340102,Creux,Oui,Haut du dos,Aucun,images_patients/patient_673.png,0.06409338772551125,33.63,33.78,62.88,62.93,0.37,49.64
+675,676,47,Femme,158.6511357964824,80.87554095012598,Plat,Oui,Gauche,Genoux valgum,images_patients/patient_676.png,0.07054997305188478,72.93,87.67,2.81,39.82,60.51,21.0
+679,680,38,Femme,161.0,54.0,Plat,Oui,Bas du dos,Épaule antépulsée,images_patients/patient_680.png,0.07450000000000001,59.99,0.39,89.81,75.28,33.36,71.23
+680,681,32,Homme,175.3692019784983,81.31069176635992,Plat,Oui,Haut gauche,Hyperlordose lombaire,images_patients/patient_681.png,0.06299529275560906,69.45,69.48,23.48,23.53,47.65,2.35
+683,684,60,Femme,175.0,75.0,Normal,Oui,Haut droite,Hyperlordose lombaire,images_patients/patient_684.png,0.05500000000000001,89.6,75.07,39.94,0.61,62.65,22.04
+685,686,48,Homme,186.3491174753928,84.71130539932432,Creux,Oui,Bas gauche,Cyphose dorsale,images_patients/patient_686.png,0.07138586413702074,33.37,34.09,62.72,62.98,0.58,49.59
+686,687,63,Femme,168.0533525929386,57.03508298897744,Creux,Oui,Gauche,Aucun,images_patients/patient_687.png,0.06743824071455323,43.41,65.13,32.84,51.48,33.52,30.12
+687,688,28,Femme,170.0,62.0,Creux,Oui,Bas gauche,Aucun,images_patients/patient_688.png,0.06150000000000001,69.55,80.92,9.26,35.02,54.63,14.52
+688,689,60,Femme,164.4090165595047,77.85185924250077,Creux,Oui,Haut du dos,Hyperlordose lombaire,images_patients/patient_689.png,0.06414735096274841,72.37,72.16,22.26,21.81,50.75,0.78
+692,693,39,Femme,163.9680171585097,70.02053225258278,Plat,Oui,Droite,Genoux valgum,images_patients/patient_693.png,0.05703652367332793,89.51,74.79,40.16,0.88,62.47,22.13
+694,695,45,Femme,156.0754452169864,71.94645819989336,Plat,Oui,Droite,Aucun,images_patients/patient_695.png,0.06290873559140014,63.05,40.14,53.73,36.21,30.89,32.78
+696,697,27,Homme,166.0,82.0,Plat,Oui,Bas gauche,Hyperlordose lombaire,images_patients/patient_697.png,0.068,73.81,89.04,1.9,40.71,61.78,22.24
+697,698,24,Homme,169.3972089515841,75.1823579696218,Creux,Oui,Haut droite,Genoux valgum,images_patients/patient_698.png,0.05898375349382977,89.54,75.76,38.99,1.02,62.89,21.44
+698,699,47,Homme,176.0740468914965,98.19988937485812,Creux,Oui,Haut gauche,Cyphose dorsale,images_patients/patient_699.png,0.07973691282060638,33.09,31.87,65.88,65.48,2.64,52.56
+701,702,38,Femme,173.1571446414734,71.18944872493938,Creux,Oui,Haut droite,Aucun,images_patients/patient_702.png,0.0531108764042027,47.79,22.14,68.37,58.98,15.0,51.0
+703,704,20,Homme,181.0,77.0,Normal,Oui,Haut droite,Épaule antépulsée,images_patients/patient_704.png,0.06,59.56,0.7,90.36,76.16,33.4,71.91
+704,705,67,Homme,178.6527102726666,70.71557222201069,Plat,Oui,Droite,Aucun,images_patients/patient_705.png,0.054041927358344,63.35,38.72,55.42,37.36,30.85,34.45
+706,707,18,Homme,177.692302259097,82.35985441645823,Creux,Oui,Bas gauche,Épaule antépulsée,images_patients/patient_707.png,0.06470600554600675,0.94,59.22,75.04,89.27,32.61,70.79
+707,708,18,Homme,182.0409326145521,75.20592603808963,Creux,Oui,Bas du dos,Aucun,images_patients/patient_708.png,0.0597263923453657,72.36,72.27,22.12,21.91,50.8,0.81
+708,709,69,Femme,163.6088891550984,75.72852394190552,Normal,Oui,Haut droite,Aucun,images_patients/patient_709.png,0.06142407936435632,47.43,21.27,69.4,60.16,14.98,52.14
+709,710,30,Femme,164.0,75.0,Creux,Oui,Droite,Cyphose dorsale,images_patients/patient_710.png,0.06150000000000001,34.12,32.91,63.52,63.09,0.68,50.06
+710,711,63,Homme,181.0,83.0,Normal,Oui,Haut du dos,Genoux valgum,images_patients/patient_711.png,0.066,89.58,74.63,40.46,1.08,62.46,22.35
+711,712,27,Femme,156.0,77.0,Normal,Oui,Droite,Hyperlordose lombaire,images_patients/patient_712.png,0.0665,70.43,70.98,22.25,23.38,49.03,1.17
+712,713,58,Femme,173.0171669617255,57.3542341168836,Normal,Oui,Bas droite,Aucun,images_patients/patient_713.png,0.06363718240225366,80.13,67.91,36.15,10.04,53.42,15.13
+713,714,32,Homme,178.0,93.0,Plat,Oui,Haut gauche,Aucun,images_patients/patient_714.png,0.07600000000000001,19.15,45.25,64.74,72.88,14.7,56.23
+714,715,67,Homme,177.9314126352407,78.90483499061982,Normal,Oui,Bas gauche,Cyphose dorsale,images_patients/patient_715.png,0.06037054130824016,32.36,33.44,64.48,64.85,1.61,51.5
+715,716,45,Femme,174.0,67.0,Creux,Oui,Gauche,Cyphose dorsale,images_patients/patient_716.png,0.05450000000000001,33.98,34.95,61.2,61.57,2.04,48.04
+716,717,67,Homme,174.4784267189784,72.58771891924138,Normal,Oui,Bas du dos,Cyphose dorsale,images_patients/patient_717.png,0.0528485055597522,33.89,32.36,64.43,63.9,1.28,50.97
+718,719,27,Homme,178.5905976798572,79.66724792736981,Plat,Oui,Bas droite,Cyphose dorsale,images_patients/patient_719.png,0.0629625467672984,31.7,32.76,66.14,66.48,3.27,53.23
+721,722,54,Femme,178.0,79.0,Normal,Oui,Bas gauche,Épaule antépulsée,images_patients/patient_722.png,0.06050000000000001,1.09,60.55,76.68,91.23,34.46,72.68
+722,723,44,Homme,174.0,69.0,Normal,Oui,Bas droite,Cyphose dorsale,images_patients/patient_723.png,0.0515,32.97,34.21,62.93,63.37,0.7,49.9
+723,724,36,Homme,180.0,74.0,Plat,Oui,Haut droite,Aucun,images_patients/patient_724.png,0.05800000000000001,46.05,20.32,70.98,62.45,14.4,54.08
+726,727,28,Homme,161.0,68.0,Plat,Oui,Bas du dos,Hyperlordose lombaire,images_patients/patient_727.png,0.06050000000000001,88.43,74.58,38.83,1.74,61.67,20.74
+727,728,22,Femme,160.0,85.0,Creux,Oui,Haut du dos,Genoux valgum,images_patients/patient_728.png,0.07350000000000001,89.63,75.2,39.83,0.52,62.72,21.99
+730,731,35,Femme,159.733117663684,67.52831514022958,Normal,Oui,Bas gauche,Genoux valgum,images_patients/patient_731.png,0.06010512602792844,75.37,89.54,0.65,39.46,62.73,21.72
+731,732,52,Femme,160.8171585908911,65.3717688873543,Normal,Oui,Bas du dos,Cyphose dorsale,images_patients/patient_732.png,0.06171965181720013,33.11,34.78,62.11,62.72,1.29,49.13
+732,733,28,Homme,162.0,89.0,Normal,Oui,Haut droite,Cyphose dorsale,images_patients/patient_733.png,0.07550000000000001,33.16,33.03,64.24,64.19,1.02,51.02
+733,734,25,Femme,160.0,58.0,Plat,Oui,Haut du dos,Hyperlordose lombaire,images_patients/patient_734.png,0.07100000000000001,71.18,71.16,22.59,22.55,49.54,0.46
+737,738,33,Femme,163.8903710975701,67.86415755611439,Creux,Oui,Haut du dos,Épaule antépulsée,images_patients/patient_738.png,0.05869065689510055,59.95,0.83,89.42,74.83,33.13,70.81
+738,739,57,Homme,179.7933460598886,92.91101559391208,Plat,Oui,Bas droite,Genoux valgum,images_patients/patient_739.png,0.07680768862385641,87.87,72.05,41.22,3.66,60.3,22.05
+740,741,55,Femme,164.9733595513351,70.37830885908025,Normal,Oui,Droite,Genoux valgum,images_patients/patient_741.png,0.05539162908341273,89.88,74.79,40.72,1.06,62.73,22.67
+741,742,67,Homme,181.0,70.0,Creux,Oui,Haut gauche,Hyperlordose lombaire,images_patients/patient_742.png,0.05400000000000001,71.4,72.05,21.59,23.0,50.15,0.8
+743,744,66,Homme,172.0,68.0,Plat,Oui,Gauche,Épaule antépulsée,images_patients/patient_744.png,0.05500000000000001,1.36,59.29,76.72,90.71,33.44,72.35
+748,749,19,Femme,162.6218976202319,61.96684360092456,Normal,Oui,Bas du dos,Hyperlordose lombaire,images_patients/patient_749.png,0.0642222075889595,72.9,73.54,20.9,22.34,51.79,1.95
+751,752,56,Femme,163.5555307085908,60.42119733831984,Creux,Oui,Bas gauche,Aucun,images_patients/patient_752.png,0.06630103730738475,69.32,81.02,9.13,35.43,54.6,14.88
+752,753,49,Femme,174.0,71.0,Plat,Oui,Haut droite,Aucun,images_patients/patient_753.png,0.05300000000000001,46.36,20.73,70.37,61.69,14.4,53.39
+753,754,51,Femme,166.9699549854679,61.9908322208072,Creux,Oui,Bas du dos,Cyphose dorsale,images_patients/patient_754.png,0.06302419028645888,33.59,34.77,61.72,62.16,1.54,48.63
+754,755,39,Femme,165.1712617524321,72.59964147654618,Plat,Oui,Haut droite,Genoux valgum,images_patients/patient_755.png,0.05901401060033013,89.03,74.65,39.63,1.14,62.1,21.55
+765,766,26,Homme,171.0,80.0,Creux,Oui,Haut gauche,Cyphose dorsale,images_patients/patient_766.png,0.063,33.18,34.32,62.61,63.02,0.79,49.55
+768,769,70,Femme,162.7362578664699,56.58545471107461,Creux,Oui,Droite,Cyphose dorsale,images_patients/patient_769.png,0.07054641635569048,35.6,34.72,60.26,59.92,3.38,46.66
+769,770,22,Femme,168.2445521489664,57.65815831704785,Creux,Oui,Haut du dos,Épaule antépulsée,images_patients/patient_770.png,0.06671956560846898,59.99,1.33,89.03,74.35,32.95,70.38
+775,776,27,Homme,184.8735614796909,94.64868478673797,Creux,Oui,Gauche,Hyperlordose lombaire,images_patients/patient_776.png,0.08058546552658341,70.19,69.69,23.74,22.73,48.18,1.91
+777,778,34,Femme,168.4565850531311,72.10635185947744,Creux,Oui,Haut droite,Épaule antépulsée,images_patients/patient_778.png,0.05637805933291189,59.93,1.63,88.73,74.03,32.76,70.07
+778,779,27,Femme,154.3958942957654,71.9773530484604,Plat,Oui,Gauche,Épaule antépulsée,images_patients/patient_779.png,0.06377940590057771,1.68,60.48,77.33,91.74,34.7,73.25
+779,780,63,Homme,173.1770390248416,76.75779343236313,Creux,Oui,Haut droite,Genoux valgum,images_patients/patient_780.png,0.05866927391994232,91.1,76.09,40.93,1.07,64.06,23.43
+780,781,26,Homme,172.0,70.0,Creux,Oui,Gauche,Aucun,images_patients/patient_781.png,0.0525,42.03,64.08,34.31,52.31,32.25,31.15
+781,782,50,Homme,171.7249436640498,83.79936469922393,Plat,Oui,Gauche,Épaule antépulsée,images_patients/patient_782.png,0.06693689286719903,2.22,60.75,77.85,92.29,35.15,73.8
+782,783,18,Femme,156.0,81.0,Plat,Oui,Haut gauche,Genoux valgum,images_patients/patient_783.png,0.07200000000000001,73.77,89.27,2.07,41.1,61.92,22.61
+792,793,70,Homme,186.0,77.0,Normal,Oui,Haut droite,Cyphose dorsale,images_patients/patient_793.png,0.0625,33.46,33.59,63.25,63.3,0.08,50.03
+793,794,54,Femme,171.0,57.0,Plat,Oui,Droite,Aucun,images_patients/patient_794.png,0.0665,62.97,41.17,52.57,35.36,31.07,31.63
+794,795,26,Femme,150.0,84.0,Creux,Oui,Bas gauche,Genoux valgum,images_patients/patient_795.png,0.0775,74.75,89.81,1.06,40.66,62.67,22.6
+797,798,45,Homme,177.1318486996124,84.5532630271473,Normal,Oui,Bas droite,Genoux valgum,images_patients/patient_798.png,0.06561918737695348,89.89,74.69,40.85,1.21,62.69,22.75
+798,799,67,Homme,178.7136111513283,91.00426876375906,Plat,Oui,Bas gauche,Hyperlordose lombaire,images_patients/patient_799.png,0.07436107433942324,68.39,67.95,24.71,23.88,46.21,3.82
+799,800,65,Femme,166.8805008208066,59.21350809512118,Plat,Oui,Haut gauche,Épaule antépulsée,images_patients/patient_800.png,0.0663462414944755,0.97,60.56,76.53,91.11,34.39,72.55
+801,802,68,Homme,174.0396619655711,71.85599539032465,Normal,Oui,Bas du dos,Épaule antépulsée,images_patients/patient_802.png,0.0523361644075391,59.84,0.39,90.35,76.0,33.56,71.85
+803,804,55,Homme,172.8691198635188,75.63848532756462,Creux,Oui,Droite,Cyphose dorsale,images_patients/patient_804.png,0.05770392539580522,33.25,33.99,62.95,63.21,0.45,49.83
+806,807,59,Homme,177.7391230179811,90.64059521281708,Creux,Oui,Bas du dos,Genoux valgum,images_patients/patient_807.png,0.07301015672180762,89.97,74.75,40.91,1.21,62.77,22.83
+807,808,20,Homme,177.0,62.0,Plat,Oui,Bas du dos,Aucun,images_patients/patient_808.png,0.06050000000000001,70.06,70.8,22.21,23.72,48.73,1.55
+808,809,25,Femme,168.7589631425155,72.37444500354165,Normal,Oui,Bas du dos,Cyphose dorsale,images_patients/patient_809.png,0.05549496343228392,33.34,34.18,62.65,62.95,0.67,49.53
+810,811,24,Homme,174.0,101.0,Creux,Oui,Bas gauche,Épaule antépulsée,images_patients/patient_811.png,0.0825,1.34,59.5,76.83,90.89,33.66,72.5
+811,812,46,Homme,164.0,60.0,Plat,Oui,Haut gauche,Genoux valgum,images_patients/patient_812.png,0.067,74.15,89.37,1.61,40.77,62.14,22.44
+813,814,33,Femme,164.9881304526186,68.73583161271362,Normal,Oui,Haut gauche,Cyphose dorsale,images_patients/patient_814.png,0.05627010316097709,32.67,34.27,63.13,63.7,0.91,50.18
+814,815,29,Femme,163.0,78.0,Plat,Oui,Haut droite,Hyperlordose lombaire,images_patients/patient_815.png,0.0655,68.67,69.52,22.91,24.56,47.24,2.94
+815,816,48,Femme,174.0,64.0,Plat,Oui,Gauche,Hyperlordose lombaire,images_patients/patient_816.png,0.058,70.61,70.69,22.76,22.92,48.97,1.04
+816,817,60,Femme,171.0,67.0,Creux,Oui,Bas gauche,Genoux valgum,images_patients/patient_817.png,0.05600000000000001,76.35,91.2,1.07,40.74,64.22,23.37
+817,818,25,Homme,175.3216302041016,82.50298253919205,Normal,Oui,Bas droite,Épaule antépulsée,images_patients/patient_818.png,0.06266379764124286,59.78,1.3,91.08,76.9,33.92,72.65
+819,820,21,Homme,180.0,86.0,Plat,Oui,Bas droite,Genoux valgum,images_patients/patient_820.png,0.07,87.76,73.51,39.21,2.45,60.8,20.64
+820,821,58,Femme,152.0,81.0,Plat,Oui,Bas droite,Aucun,images_patients/patient_821.png,0.07400000000000001,76.22,63.89,36.78,14.2,49.11,14.71
+822,823,29,Homme,176.0,98.0,Normal,Oui,Bas gauche,Aucun,images_patients/patient_823.png,0.07850000000000001,64.97,77.09,13.21,36.37,50.15,14.48
+825,826,37,Femme,171.6515961067472,74.98498296395209,Plat,Oui,Haut du dos,Genoux valgum,images_patients/patient_826.png,0.0581591849105785,89.05,73.82,40.7,1.89,61.79,22.24
+827,828,54,Femme,153.5130738350259,73.09989434047291,Plat,Oui,Haut gauche,Genoux valgum,images_patients/patient_828.png,0.06534335742295994,73.44,89.26,2.51,41.49,61.78,22.86
+828,829,69,Homme,173.1046731079261,88.87128842040072,Normal,Oui,Bas gauche,Genoux valgum,images_patients/patient_829.png,0.06981895186643766,73.44,88.8,2.28,40.83,61.47,22.2
+829,830,60,Femme,165.1660964260274,75.04075868336324,Creux,Oui,Haut du dos,Hyperlordose lombaire,images_patients/patient_830.png,0.06095771047034954,71.69,72.04,21.84,22.61,50.31,0.52
+831,832,30,Femme,160.482864191699,69.9175948992466,Creux,Oui,Haut droite,Aucun,images_patients/patient_832.png,0.05834097300490389,48.2,21.19,69.29,59.59,15.63,51.84
+836,837,46,Homme,183.799328712573,78.85361840005208,Normal,Oui,Haut droite,Cyphose dorsale,images_patients/patient_837.png,0.06325328275633861,33.61,33.38,63.38,63.3,0.17,50.1
+837,838,29,Homme,187.0,87.0,Plat,Oui,Bas droite,Cyphose dorsale,images_patients/patient_838.png,0.07450000000000001,31.93,32.83,65.77,66.07,2.86,52.82
+838,839,65,Homme,171.0,84.0,Plat,Oui,Haut droite,Cyphose dorsale,images_patients/patient_839.png,0.0675,32.43,33.02,64.98,65.18,1.95,51.93
+840,841,18,Femme,166.6472294219673,65.29020677306409,Creux,Oui,Bas du dos,Genoux valgum,images_patients/patient_841.png,0.05988617851595229,90.34,76.34,39.45,0.82,63.65,22.15
+841,842,40,Femme,166.0,56.0,Creux,Oui,Gauche,Épaule antépulsée,images_patients/patient_842.png,0.0695,2.68,59.71,72.98,87.74,32.12,69.04
+843,844,50,Femme,158.1609369502311,75.1648702647937,Plat,Oui,Droite,Hyperlordose lombaire,images_patients/patient_844.png,0.06508440178967817,70.02,70.95,21.99,23.89,48.79,1.64
+846,847,31,Femme,162.0,72.0,Normal,Oui,Gauche,Aucun,images_patients/patient_847.png,0.0585,41.09,64.2,35.08,53.41,32.13,32.25
+847,848,40,Femme,163.5975058492,57.23205706028912,Normal,Oui,Bas droite,Cyphose dorsale,images_patients/patient_848.png,0.06846919001511086,34.34,34.54,61.39,61.47,1.92,48.08
+850,851,46,Homme,174.7640773836073,68.81458709614144,Creux,Oui,Bas droite,Aucun,images_patients/patient_851.png,0.05230337421205491,79.12,67.32,35.69,11.04,52.5,14.41
+851,852,62,Homme,169.7942299257229,72.79128970084416,Creux,Oui,Haut du dos,Cyphose dorsale,images_patients/patient_852.png,0.0563941747379827,34.92,33.76,61.85,61.42,1.83,48.3
+853,854,43,Femme,157.2526201947312,71.20449004915282,Creux,Oui,Bas droite,Aucun,images_patients/patient_854.png,0.06107817995178725,79.33,67.1,36.22,10.87,52.55,14.92
+854,855,47,Homme,175.470940450165,80.00992111161614,Creux,Oui,Haut du dos,Genoux valgum,images_patients/patient_855.png,0.06124539133669864,90.65,76.19,40.11,0.55,63.79,22.71
+856,857,24,Femme,160.0,72.0,Plat,Oui,Bas gauche,Genoux valgum,images_patients/patient_857.png,0.06100000000000001,73.32,88.45,2.34,40.46,61.19,21.79
+857,858,58,Femme,157.3430216695419,66.85039863945943,Plat,Oui,Bas du dos,Hyperlordose lombaire,images_patients/patient_858.png,0.06347809052576964,88.84,75.08,38.8,1.43,62.15,20.94
+859,860,68,Homme,189.0,86.0,Normal,Oui,Bas du dos,Cyphose dorsale,images_patients/patient_860.png,0.07300000000000001,32.83,33.24,64.29,64.43,1.19,51.17
+860,861,24,Homme,170.3014442217545,79.56016479843944,Creux,Oui,Haut gauche,Cyphose dorsale,images_patients/patient_861.png,0.0629094426875622,33.6,33.7,63.0,63.03,0.25,49.76
+862,863,58,Homme,165.0,63.0,Normal,Oui,Gauche,Genoux valgum,images_patients/patient_863.png,0.062,76.6,90.82,0.94,39.84,64.07,22.64
+865,866,21,Homme,185.0,88.0,Plat,Oui,Bas gauche,Cyphose dorsale,images_patients/patient_866.png,0.07450000000000001,31.79,33.07,65.59,66.01,2.77,52.69
+867,868,65,Homme,167.0,78.0,Normal,Oui,Haut gauche,Genoux valgum,images_patients/patient_868.png,0.062,74.93,89.6,0.73,40.12,62.6,22.15
+868,869,21,Femme,167.3202888453223,70.28982866448797,Normal,Oui,Gauche,Cyphose dorsale,images_patients/patient_869.png,0.05412968424182684,34.27,33.48,62.71,62.42,0.85,49.28
+869,870,29,Femme,165.2557686831957,76.99515161932084,Plat,Oui,Haut droite,Genoux valgum,images_patients/patient_870.png,0.06336726727772297,88.2,73.34,40.08,2.34,61.03,21.42
+871,872,70,Femme,164.5907625465132,72.51216933394258,Plat,Oui,Haut gauche,Aucun,images_patients/patient_872.png,0.05921678806068599,19.05,47.97,62.05,71.71,16.27,54.38
+872,873,31,Homme,191.0,60.0,Creux,Oui,Haut gauche,Hyperlordose lombaire,images_patients/patient_873.png,0.069,72.51,72.88,21.44,22.25,51.21,1.29
+873,874,35,Femme,160.3914999829795,68.1612914594779,Plat,Oui,Bas droite,Hyperlordose lombaire,images_patients/patient_874.png,0.06064295854903235,89.34,75.13,39.48,0.8,62.5,21.62
+875,876,39,Homme,181.3434179354394,88.86006940617297,Plat,Oui,Droite,Hyperlordose lombaire,images_patients/patient_876.png,0.07353177837389267,88.1,72.92,40.47,2.75,60.79,21.64
+876,877,54,Femme,150.0,88.0,Normal,Oui,Bas du dos,Épaule antépulsée,images_patients/patient_877.png,0.0805,58.6,1.67,90.11,76.37,32.71,71.82
+878,879,28,Femme,164.0025787382302,63.09393116028282,Normal,Oui,Gauche,Cyphose dorsale,images_patients/patient_879.png,0.06240477947060206,33.38,34.91,61.74,62.3,1.56,48.71
+879,880,53,Homme,176.2138995164806,85.85929151501546,Normal,Oui,Gauche,Aucun,images_patients/patient_880.png,0.06646624127325577,39.04,62.74,37.24,54.73,30.37,33.85
+883,884,48,Femme,162.9951457072765,58.4466297649189,Plat,Oui,Bas du dos,Cyphose dorsale,images_patients/patient_884.png,0.06905579738144282,32.94,33.77,63.5,63.79,0.62,50.42
+885,886,26,Femme,157.0,71.0,Plat,Oui,Haut droite,Épaule antépulsée,images_patients/patient_886.png,0.06150000000000001,59.03,2.44,91.45,77.74,33.72,73.2
+886,887,29,Homme,184.0,88.0,Plat,Oui,Bas gauche,Genoux valgum,images_patients/patient_887.png,0.07400000000000001,72.98,87.58,2.81,39.64,60.47,20.83
+889,890,26,Homme,178.3265723776333,80.54213830170319,Plat,Oui,Bas gauche,Cyphose dorsale,images_patients/patient_890.png,0.06370542449051982,32.12,32.59,65.92,66.07,2.9,52.89
+891,892,25,Femme,158.0,52.0,Creux,Oui,Haut gauche,Épaule antépulsée,images_patients/patient_892.png,0.07750000000000001,3.03,59.78,72.64,87.48,32.03,68.74
+894,895,68,Homme,177.9754339943103,87.64674974279104,Creux,Oui,Haut gauche,Aucun,images_patients/patient_895.png,0.07013446673994621,20.63,47.15,61.07,70.2,15.0,53.02
+898,899,53,Femme,158.2396227531541,70.45507194184813,Plat,Oui,Haut gauche,Genoux valgum,images_patients/patient_899.png,0.06033526056527111,74.45,89.81,1.5,41.05,62.55,22.84
+900,901,54,Femme,162.0,82.0,Creux,Oui,Haut droite,Aucun,images_patients/patient_901.png,0.0695,46.23,21.16,69.93,61.35,14.12,52.97
+901,902,67,Femme,174.0,59.0,Plat,Oui,Bas droite,Genoux valgum,images_patients/patient_902.png,0.063,88.85,74.46,39.6,1.34,61.9,21.44
+904,905,43,Femme,169.0,83.0,Normal,Oui,Bas du dos,Genoux valgum,images_patients/patient_905.png,0.066,89.26,75.33,39.11,1.0,62.53,21.36
+905,906,70,Femme,168.0,80.0,Creux,Oui,Gauche,Cyphose dorsale,images_patients/patient_906.png,0.0645,34.2,33.73,62.46,62.29,0.96,49.08
+906,907,35,Homme,178.7012732496095,93.00752154202797,Plat,Oui,Bas droite,Aucun,images_patients/patient_907.png,0.07635815816683271,76.25,63.85,36.87,14.18,49.12,14.8
+908,909,62,Femme,151.0,64.0,Plat,Oui,Bas du dos,Épaule antépulsée,images_patients/patient_909.png,0.0695,59.54,0.46,89.91,75.64,33.15,71.43
+910,911,55,Femme,161.8884859122893,61.94539798189667,Normal,Oui,Bas gauche,Épaule antépulsée,images_patients/patient_911.png,0.06461035906195868,1.44,60.13,74.26,89.01,33.02,70.34
+912,913,21,Homme,165.2538651039783,81.1943742283456,Plat,Oui,Bas du dos,Genoux valgum,images_patients/patient_913.png,0.06756744167635645,88.15,73.27,40.08,2.41,60.96,21.4
+914,915,23,Femme,159.0873537869822,81.18572526361942,Creux,Oui,Haut gauche,Aucun,images_patients/patient_915.png,0.07014204837012834,19.77,48.02,61.22,70.88,15.99,53.52
+915,916,66,Homme,171.0,89.0,Plat,Oui,Haut gauche,Épaule antépulsée,images_patients/patient_916.png,0.07250000000000001,4.27,59.43,79.75,93.29,35.02,75.15
+917,918,20,Homme,177.0,84.0,Plat,Oui,Haut droite,Genoux valgum,images_patients/patient_918.png,0.0665,87.43,71.87,40.83,3.8,59.94,21.59
+920,921,63,Homme,183.6156549071023,91.47849825771644,Normal,Oui,Bas du dos,Hyperlordose lombaire,images_patients/patient_921.png,0.07578632571126759,69.07,69.45,23.26,24.0,47.43,2.61
+922,923,21,Femme,165.0,70.0,Creux,Oui,Droite,Hyperlordose lombaire,images_patients/patient_923.png,0.05600000000000001,89.63,75.89,38.95,1.05,63.0,21.47
+924,925,20,Femme,150.0,50.0,Plat,Oui,Haut gauche,Genoux valgum,images_patients/patient_925.png,0.084,77.09,91.41,1.45,40.13,64.66,23.14
+925,926,36,Homme,182.0,62.0,Plat,Oui,Haut du dos,Cyphose dorsale,images_patients/patient_926.png,0.063,33.13,33.75,63.36,63.58,0.42,50.24
+930,931,62,Femme,181.0,79.0,Normal,Oui,Haut droite,Aucun,images_patients/patient_931.png,0.06200000000000001,47.36,21.28,69.41,60.2,14.92,52.17
+931,932,33,Homme,174.3697224046024,74.26339383945907,Creux,Oui,Haut du dos,Cyphose dorsale,images_patients/patient_932.png,0.0555785326371579,33.93,34.25,62.06,62.18,1.21,48.81
+932,933,37,Femme,166.0,72.0,Normal,Oui,Haut gauche,Cyphose dorsale,images_patients/patient_933.png,0.0565,33.28,33.95,62.97,63.21,0.41,49.83
+933,934,65,Femme,164.0,52.0,Creux,Oui,Haut du dos,Cyphose dorsale,images_patients/patient_934.png,0.07450000000000001,34.15,36.2,59.68,60.48,3.57,46.66
+934,935,48,Homme,178.27974265035,80.57188009235091,Creux,Oui,Bas gauche,Épaule antépulsée,images_patients/patient_935.png,0.06321175141752591,0.95,60.64,75.05,89.9,33.8,71.22
+936,937,61,Homme,182.525854064272,66.64916131332068,Plat,Oui,Bas droite,Épaule antépulsée,images_patients/patient_937.png,0.05861376571881531,60.98,2.17,92.29,77.73,35.29,73.76
+939,940,70,Homme,183.299475353332,97.43249721568708,Plat,Oui,Bas droite,Aucun,images_patients/patient_940.png,0.08308223489235307,76.66,62.84,38.58,14.28,48.98,16.49
+941,942,39,Homme,165.256048393843,83.96701947363371,Creux,Oui,Haut du dos,Épaule antépulsée,images_patients/patient_942.png,0.06983899527671221,59.86,0.14,90.04,75.62,33.41,71.5
+943,944,65,Homme,160.0,92.0,Normal,Oui,Haut gauche,Épaule antépulsée,images_patients/patient_944.png,0.07950000000000002,2.87,60.33,78.53,92.67,35.14,74.3
+947,948,57,Homme,171.8057006569079,77.27216686496907,Creux,Oui,Bas gauche,Cyphose dorsale,images_patients/patient_948.png,0.0598693165365151,34.65,33.44,62.44,61.99,1.29,48.91
+949,950,50,Homme,177.8690896154958,85.91031938110879,Normal,Oui,Haut du dos,Genoux valgum,images_patients/patient_950.png,0.0673448641888567,88.27,73.52,39.95,2.18,61.14,21.37
+951,952,25,Femme,179.0,73.0,Creux,Oui,Haut du dos,Aucun,images_patients/patient_952.png,0.05600000000000001,33.63,34.99,61.44,61.95,1.82,48.36
+953,954,57,Femme,155.0,53.0,Normal,Oui,Bas du dos,Cyphose dorsale,images_patients/patient_954.png,0.07700000000000001,34.48,33.7,62.26,61.98,1.27,48.81
+956,957,37,Homme,191.0,81.0,Creux,Oui,Bas gauche,Hyperlordose lombaire,images_patients/patient_957.png,0.07,75.93,90.03,0.55,39.49,63.28,22.0
+957,958,57,Femme,158.0,60.0,Normal,Oui,Gauche,Cyphose dorsale,images_patients/patient_958.png,0.0685,33.96,34.74,61.47,61.76,1.78,48.28
+958,959,48,Femme,155.3600728635854,63.76140701012202,Creux,Oui,Haut du dos,Cyphose dorsale,images_patients/patient_959.png,0.06705855655808528,33.3,35.29,61.36,62.1,1.97,48.4
+960,961,46,Femme,169.0,74.0,Plat,Oui,Gauche,Genoux valgum,images_patients/patient_961.png,0.05850000000000001,72.86,87.79,2.83,40.08,60.56,21.23
+961,962,38,Homme,176.0,92.0,Plat,Oui,Bas droite,Épaule antépulsée,images_patients/patient_962.png,0.07400000000000001,59.68,4.57,93.69,80.11,35.39,75.54
+965,966,30,Femme,163.2933001974654,72.58751311254672,Creux,Oui,Haut gauche,Cyphose dorsale,images_patients/patient_966.png,0.05944086301381402,33.88,34.57,61.73,61.99,1.52,48.54
+967,968,37,Femme,165.4124647410977,66.06957447297567,Plat,Oui,Haut gauche,Épaule antépulsée,images_patients/patient_968.png,0.0602241931564755,1.86,61.17,77.27,91.99,35.23,73.4
+970,971,68,Homme,192.0,87.0,Normal,Oui,Bas du dos,Cyphose dorsale,images_patients/patient_971.png,0.07550000000000001,32.84,32.5,65.26,65.15,2.07,52.06
+972,973,37,Femme,168.3516999786774,79.06669856026008,Normal,Oui,Haut droite,Épaule antépulsée,images_patients/patient_973.png,0.06239084857092138,59.03,1.56,90.61,76.74,33.23,72.29
+973,974,25,Femme,155.0,85.0,Plat,Oui,Gauche,Hyperlordose lombaire,images_patients/patient_974.png,0.07650000000000001,69.5,69.22,23.84,23.29,47.54,2.48
+974,975,58,Homme,177.3218058445337,79.50933914919675,Normal,Oui,Droite,Épaule antépulsée,images_patients/patient_975.png,0.06067024207146361,59.57,0.43,89.93,75.64,33.18,71.44
+977,978,20,Femme,152.0323756950795,73.61401084578534,Creux,Oui,Haut du dos,Hyperlordose lombaire,images_patients/patient_978.png,0.0660978229982456,72.11,72.11,22.11,22.11,50.57,0.57
+979,980,55,Homme,185.0,91.0,Normal,Oui,Droite,Hyperlordose lombaire,images_patients/patient_980.png,0.07600000000000001,88.71,72.96,41.3,2.85,61.23,22.49
+980,981,54,Homme,172.0,90.0,Plat,Oui,Haut du dos,Hyperlordose lombaire,images_patients/patient_981.png,0.07300000000000001,87.29,73.0,39.2,2.96,60.28,20.4
+984,985,43,Femme,166.6272672867964,68.05139563223062,Creux,Oui,Bas droite,Cyphose dorsale,images_patients/patient_985.png,0.05713497072437117,33.45,34.6,62.04,62.46,1.24,48.95
+988,989,70,Femme,158.6365620029647,64.21281815550292,Creux,Oui,Droite,Aucun,images_patients/patient_989.png,0.06496890084301475,64.71,42.01,52.74,34.15,32.8,31.48
+989,990,37,Femme,160.5807990655001,76.06483538722905,Creux,Oui,Haut droite,Épaule antépulsée,images_patients/patient_990.png,0.06427443585447898,60.43,0.5,90.17,75.47,33.81,71.54
+990,991,68,Homme,172.7876237404881,85.18858492124703,Creux,Oui,Gauche,Genoux valgum,images_patients/patient_991.png,0.067294773051003,74.38,88.8,1.4,39.62,61.84,21.42
+991,992,36,Homme,178.8275286500627,83.51164568017998,Plat,Oui,Haut droite,Aucun,images_patients/patient_992.png,0.06692541000521134,46.85,18.86,72.36,63.33,15.64,55.32
+992,993,50,Femme,160.0507413917536,71.69720406460893,Plat,Oui,Bas droite,Genoux valgum,images_patients/patient_993.png,0.06067183336873214,88.95,74.33,39.92,1.37,61.92,21.69
+993,994,62,Femme,153.0,76.0,Plat,Oui,Bas droite,Genoux valgum,images_patients/patient_994.png,0.0685,89.07,74.31,40.13,1.36,61.99,21.89
+994,995,36,Homme,185.0,97.0,Plat,Oui,Haut gauche,Genoux valgum,images_patients/patient_995.png,0.08350000000000002,71.0,85.82,4.84,39.65,58.5,20.04
+995,996,38,Homme,179.0716875533026,85.28838824978726,Creux,Oui,Haut droite,Aucun,images_patients/patient_996.png,0.06832423202643859,46.79,20.59,70.37,61.44,14.76,53.28
+996,997,20,Homme,170.0036562323353,67.35188363047278,Plat,Oui,Haut du dos,Épaule antépulsée,images_patients/patient_997.png,0.05664628825335957,59.91,1.99,91.73,77.62,34.37,73.35
+999,1000,41,Homme,186.2671681161237,71.4058680629673,Plat,Oui,Bas du dos,Épaule antépulsée,images_patients/patient_1000.png,0.05853945212102914,60.25,0.92,91.01,76.57,34.16,72.49

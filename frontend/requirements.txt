@@ -1,0 +1,10 @@
+streamlit
+streamlit_option_menu
+yfinance
+pandas_ta
+alpha_vantage
+stocknews
+pymongo
+plotly-express
+matplotlib
+setuptools

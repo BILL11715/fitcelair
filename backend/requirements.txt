@@ -1,0 +1,13 @@
+confluent_kafka
+requests
+mongoengine
+fastapi
+uvicorn
+# schedule
+# datetime
+# pytz
+# plotly
+# pandas
+# numpy
+# pandas_datareader
+# xmltodict
