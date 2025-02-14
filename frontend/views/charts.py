@@ -4,7 +4,9 @@ import pandas as pd, numpy as np
 import plotly.express as px
 import base64
 import matplotlib.pyplot as plt
-import joblib 
+import joblib
+from PIL import Image
+from pathlib import Path
 # ---------------------------------#
 # Page layout
 # Page expands to full width
@@ -16,10 +18,23 @@ label_encoder = joblib.load("model_classification/label_encoder.pkl")
 random_forest_model = joblib.load("model_classification/random_forest_model.pkl")
 svm_model = joblib.load("model_classification/svm_model.pkl")
 model = joblib.load("model_classification/joblib_model.sav")
+        
 
+    # Mapping des labels avec les chemins des images
+image_paths = {
+    "Bas du dos": "public/schema/bas_du_dos.png",
+    "Gauche": "public/schema/gauche.png",
+    "Haut gauche": "public/schema/patient_915_haut_gauche.png",
+    "Bas gauche": "public/schema/bas_gauche.png",
+    "Droite": "public/schema/droite.png",
+    "Droite copie": "public/schema/droite_copie.png",
+    "Haut du dos": "public/schema/haut_du_dos.png",
+    "Haut droit": "public/schema/patient_886_haut_droit.png",
+    "Bas droit": "public/schema/patient_918_bas_droit.png"
+}
 def app():
     # Header
-    set_footer()
+    set_header()
 
     sexe = st.sidebar.selectbox("Sexe", ["Homme", "Femme"])
     age = st.sidebar.number_input("Age (ans)", min_value=10.0, max_value=300.0, step=1.0)
@@ -65,14 +80,32 @@ def app():
             y_pred = random_forest_model.predict(X_test_transformed)
 
             y_pred_decoded = label_encoder.inverse_transform(y_pred)
-
-            st.write("### Epaisseur de la tension :", round(prediction[0], 4))
-            st.write("### Localisation de la tension :", y_pred_decoded[0])
-        else:
-            st.error("Erreur lors du téléchargement des données. Veuillez vérifier vos entrées.")
             
+
+        st.write("### Localisation de la tension :", y_pred_decoded[0])
+        st.write("### Epaisseur de la tension :", round(prediction[0], 4))
+        
+        # Vérification et affichage de l'image
+        label = y_pred_decoded[0]
+        image_path = Path(image_paths.get(label, ""))
+
+        if image_path.exists():
+            image = Image.open(image_path)
+
+        # Redimensionner l'image
+            image = image.resize((300, 300))  # Ajuste la taille ici si nécessaire
+
+        # Centrer l'image
+            col1, col2, col3 = st.columns([1, 3, 1])
+            with col2:
+                st.image(image, caption=f"Zone : {label}")
+            
+        else:
+            st.error(f"Image introuvable pour {label} : {image_path}")
+
     # Footer
-    set_header()
+    set_footer()
+    
 
 
 
@@ -141,7 +174,7 @@ def set_footer():
         }
         </style>
         <div class="footer">
-            Développé par [Ton Nom] - Kinésithérapie & IA
+            Développé par phoenix - fitcelair
         </div>
     """, unsafe_allow_html=True)
 
