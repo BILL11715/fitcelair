@@ -61,10 +61,10 @@ def app():
 
     # Charger et afficher l'image en grand format
     image = Image.open("./public/2.png")
-    st.image(image, use_column_width=True, caption="Analyse Posturale et Kinésithérapie Assistée par IA")
+    st.image(image, caption="Analyse Posturale et Kinésithérapie Assistée par IA")
 
     # Titre principal
-    st.markdown('<div class="title">Kinésithérapie & Analyse Posturale avec l\'IA</div>', unsafe_allow_html=True)
+    st.markdown('<div class="title">Kinésithérapie & Analyse Posturale avec Fitcelair</div>', unsafe_allow_html=True)
 
     # Sous-titre
     st.markdown('<div class="subtitle">Améliorez votre posture grâce aux nouvelles technologies</div>', unsafe_allow_html=True)

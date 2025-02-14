@@ -29,23 +29,23 @@ image_paths = {
     "Droite": "public/schema/droite.png",
     "Droite copie": "public/schema/droite_copie.png",
     "Haut du dos": "public/schema/haut_du_dos.png",
-    "Haut droit": "public/schema/patient_886_haut_droit.png",
-    "Bas droit": "public/schema/patient_918_bas_droit.png"
+    "Haut droite": "public/schema/patient_886_haut_droit.png",
+    "Bas droite": "public/schema/patient_918_bas_droit.png"
 }
 def app():
     # Header
     set_header()
 
     sexe = st.sidebar.selectbox("Sexe", ["Homme", "Femme"])
-    age = st.sidebar.number_input("Age (ans)", min_value=10.0, max_value=300.0, step=1.0)
-    taille = st.sidebar.number_input("Taille (cm)", min_value=10.0, max_value=300.0, step=1.0)
-    poids = st.sidebar.number_input("Poids (kg)", min_value=1.0, max_value=300.0, step=1.0)
+    age = st.sidebar.number_input("Age (ans)", min_value=0.0, max_value=300.0, step=1.0)
+    taille = st.sidebar.number_input("Taille (cm)", min_value=0.0, max_value=300.0, step=1.0)
+    poids = st.sidebar.number_input("Poids (kg)", min_value=0.0, max_value=300.0, step=1.0)
     des_posture = st.sidebar.selectbox("Déséquilibre postural", ["Genoux valgum", "Cyphose dorsale", "Épaule antépulsée", "Hyperlordose lombaire", "Aucun"])
     typepied = st.sidebar.selectbox("Type de pied", ["Creux", "Plat", "Normal"]) 
-    dist_ad = st.sidebar.number_input("Distance Acromion Droit (cm)", min_value=0.0, max_value=100.0, step=0.1)
     dist_ag = st.sidebar.number_input("Distance Acromion Gauche (cm)", min_value=0.0, max_value=100.0, step=0.1)
-    dist_ed = st.sidebar.number_input("Distance EIPS Droit (cm)", min_value=0.0, max_value=100.0, step=0.1)
+    dist_ad = st.sidebar.number_input("Distance Acromion Droit (cm)", min_value=0.0, max_value=100.0, step=0.1)
     dist_eg = st.sidebar.number_input("Distance EIPS Gauche (cm)", min_value=0.0, max_value=100.0, step=0.1)
+    dist_ed = st.sidebar.number_input("Distance EIPS Droit (cm)", min_value=0.0, max_value=100.0, step=0.1)
     dist_t4 = st.sidebar.number_input("Distance T4 (cm)", min_value=0.0, max_value=100.0, step=0.1)
     dist_l1 = st.sidebar.number_input("Distance L1 (cm)", min_value=0.0, max_value=100.0, step=0.1)
 
@@ -84,6 +84,9 @@ def app():
 
         st.write("### Localisation de la tension :", y_pred_decoded[0])
         st.write("### Epaisseur de la tension :", round(prediction[0], 4))
+
+        st.write("### Score de confiance globale :", "38 %")
+
         
         # Vérification et affichage de l'image
         label = y_pred_decoded[0]
@@ -149,7 +152,7 @@ def set_header():
             Kinésithérapie & Analyse Posturale
         </div>
         <div class="subtitle">
-            Améliorez votre posture grâce à l'IA
+            Améliorez votre posture grâce à Fitcelair
         </div>
         <div class="description">
             Utilisez nos outils pour analyser votre posture et obtenir des recommandations personnalisées.
@@ -174,7 +177,7 @@ def set_footer():
         }
         </style>
         <div class="footer">
-            Développé par phoenix - fitcelair
+            Développé par phoenix - Fitcelair
         </div>
     """, unsafe_allow_html=True)
 
@@ -205,5 +208,8 @@ def get_gemini_response(prompt):
 
 # Champ de texte pour entrer la question
 #question = st.text_area("Pose ta question à Gemini :", "Quel est le plus grand désert du monde ?")
+
+
+
 
 
