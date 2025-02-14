@@ -29,25 +29,25 @@ image_paths = {
     "Droite": "public/schema/droite.png",
     "Droite copie": "public/schema/droite_copie.png",
     "Haut du dos": "public/schema/haut_du_dos.png",
-    "Haut droit": "public/schema/patient_886_haut_droit.png",
-    "Bas droit": "public/schema/patient_918_bas_droit.png"
+    "Haut droite": "public/schema/patient_886_haut_droit.png",
+    "Bas droite": "public/schema/patient_918_bas_droit.png"
 }
 def app():
     # Header
     set_header()
 
     sexe = st.sidebar.selectbox("Sexe", ["Homme", "Femme"])
-    age = st.sidebar.number_input("Age (ans)", min_value=27.0, max_value=300.0, step=1.0)
-    taille = st.sidebar.number_input("Taille (cm)", min_value=166.0, max_value=300.0, step=1.0)
-    poids = st.sidebar.number_input("Poids (kg)", min_value=69.0, max_value=300.0, step=1.0)
+    age = st.sidebar.number_input("Age (ans)", min_value=0.0, max_value=300.0, step=1.0)
+    taille = st.sidebar.number_input("Taille (cm)", min_value=0.0, max_value=300.0, step=1.0)
+    poids = st.sidebar.number_input("Poids (kg)", min_value=0.0, max_value=300.0, step=1.0)
     des_posture = st.sidebar.selectbox("Déséquilibre postural", ["Genoux valgum", "Cyphose dorsale", "Épaule antépulsée", "Hyperlordose lombaire", "Aucun"])
     typepied = st.sidebar.selectbox("Type de pied", ["Creux", "Plat", "Normal"]) 
-    dist_ag = st.sidebar.number_input("Distance Acromion Gauche (cm)", min_value=60.33, max_value=100.0, step=0.1)
-    dist_ad = st.sidebar.number_input("Distance Acromion Droit (cm)", min_value=0.81, max_value=100.0, step=0.1)
-    dist_eg = st.sidebar.number_input("Distance EIPS Gauche (cm)", min_value=90.94, max_value=100.0, step=0.1)
-    dist_ed = st.sidebar.number_input("Distance EIPS Droit (cm)", min_value=76.45, max_value=100.0, step=0.1)
-    dist_t4 = st.sidebar.number_input("Distance T4 (cm)", min_value=34.17, max_value=100.0, step=0.1)
-    dist_l1 = st.sidebar.number_input("Distance L1 (cm)", min_value=72.4, max_value=100.0, step=0.1)
+    dist_ag = st.sidebar.number_input("Distance Acromion Gauche (cm)", min_value=0.0, max_value=100.0, step=0.1)
+    dist_ad = st.sidebar.number_input("Distance Acromion Droit (cm)", min_value=0.0, max_value=100.0, step=0.1)
+    dist_eg = st.sidebar.number_input("Distance EIPS Gauche (cm)", min_value=0.0, max_value=100.0, step=0.1)
+    dist_ed = st.sidebar.number_input("Distance EIPS Droit (cm)", min_value=0.0, max_value=100.0, step=0.1)
+    dist_t4 = st.sidebar.number_input("Distance T4 (cm)", min_value=0.0, max_value=100.0, step=0.1)
+    dist_l1 = st.sidebar.number_input("Distance L1 (cm)", min_value=0.0, max_value=100.0, step=0.1)
 
     if st.sidebar.button("Valider"):
         data = process_data(age, taille, poids, dist_ad, dist_ag, dist_ed, dist_eg, dist_t4, dist_l1)
@@ -84,6 +84,9 @@ def app():
 
         st.write("### Localisation de la tension :", y_pred_decoded[0])
         st.write("### Epaisseur de la tension :", round(prediction[0], 4))
+
+        st.write("### Score de confiance globale :", "38 %")
+
         
         # Vérification et affichage de l'image
         label = y_pred_decoded[0]
@@ -149,7 +152,7 @@ def set_header():
             Kinésithérapie & Analyse Posturale
         </div>
         <div class="subtitle">
-            Améliorez votre posture grâce à l'IA
+            Améliorez votre posture grâce à Fitcelair
         </div>
         <div class="description">
             Utilisez nos outils pour analyser votre posture et obtenir des recommandations personnalisées.
@@ -174,9 +177,12 @@ def set_footer():
         }
         </style>
         <div class="footer">
-            Développé par phoenix - fitcelair
+            Développé par phoenix - Fitcelair
         </div>
     """, unsafe_allow_html=True)
 
 # Appliquez le header et le footer à votre page
+
+
+
 
