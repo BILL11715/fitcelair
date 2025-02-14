@@ -18,7 +18,7 @@ def load_patient_data():
         "Poids (kg)": np.random.randint(50, 100, 50),
         "Type de pied": np.random.choice(["Creux", "Plat", "Normal"], 50),
         "Déséquilibres posturaux": np.random.choice(
-            ["Genoux valgum", "Cyphose dorsale", "Hyperlordose lombaire", "Aucun"], 50
+            ["Genoux valgum", "Cyphose dorsale", "Hyperlordose lombaire", "Épaule antépulsée "], 50
         ),
         "Présence de tensions": np.random.choice(["Oui", "Non"], 50),
     }
