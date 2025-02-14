@@ -1,47 +1,94 @@
 import streamlit as st
-from utils.helpers import (
-    get_data_from_ticker,
-    get_figure,
-    get_stocks,
-    init_connection,
-)
-from utils.tools import SYMBOLS
-import streamlit as st
-from utils.helpers import (
-    load_patient_data,
-    preprocess_data,
-    predict_tension,
-    get_visual_representation,
-)
+import pandas as pd
+import plotly.express as px
+import joblib
+import numpy as np
 
-# get client connection
-client = init_connection()
+# Charger les modèles et l'encodeur
+label_encoder = joblib.load("model_classification/label_encoder.pkl")
+random_forest_model = joblib.load("model_classification/random_forest_model.pkl")
+svm_model = joblib.load("model_classification/svm_model.pkl")
+model = joblib.load("model_classification/joblib_model.sav")
 
+def load_patient_data():
+    """ Fonction simulant le chargement des données patients """
+    data = {
+        "Âge": np.random.randint(18, 65, 50),
+        "Taille (cm)": np.random.randint(150, 200, 50),
+        "Poids (kg)": np.random.randint(50, 100, 50),
+        "Type de pied": np.random.choice(["Creux", "Plat", "Normal"], 50),
+        "Déséquilibres posturaux": np.random.choice(
+            ["Genoux valgum", "Cyphose dorsale", "Hyperlordose lombaire", "Aucun"], 50
+        ),
+        "Présence de tensions": np.random.choice(["Oui", "Non"], 50),
+    }
+    return pd.DataFrame(data)
 
 def app():
+    # Mise en page et design
+    st.markdown(
+        """
+        <style>
+        .header {
+            text-align: center;
+            color: #4CAF50;
+            font-size: 36px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+        .description {
+            text-align: center;
+            font-size: 18px;
+            color: #555;
+            margin-bottom: 40px;
+        }
+        </style>
+        <div class="header">Tableau de Bord - Analyse Posturale</div>
+        <div class="description">
+            Découvrez les tendances et statistiques sur les déséquilibres posturaux grâce à notre IA.
+        </div>
+        """,
+        unsafe_allow_html=True,
+    )
 
-    st.title("Candlestick chart for tickers in tab section below")
+    # Chargement des données patients
+    df = load_patient_data()
 
-    st.text("This dashboard allow user to show chart associate to specific ticker.")
+    # Affichage des données sous forme de tableau
+    st.subheader("Aperçu des données patients 📊")
+    st.dataframe(df.head(10))
 
-    st.subheader("Click on ticker tab below that you want to show the chart")
+    # Visualisation des déséquilibres posturaux
+    st.subheader("Distribution des déséquilibres posturaux")
+    fig1 = px.histogram(df, x="Déséquilibres posturaux", color="Présence de tensions",
+                        barmode="group", text_auto=True)
+    st.plotly_chart(fig1, use_container_width=True)
 
-    stocks = get_stocks(client)
+    # Analyse des types de pieds et tensions
+    st.subheader("Corrélation entre le type de pied et les tensions")
+    fig2 = px.pie(df, names="Type de pied", title="Répartition des types de pied",
+                  color_discrete_sequence=px.colors.qualitative.Set2)
+    st.plotly_chart(fig2, use_container_width=True)
 
-    tabs = st.tabs(tabs=SYMBOLS)
+    # Statistiques générales
+    st.subheader("Statistiques générales")
+    col1, col2, col3 = st.columns(3)
+    col1.metric("Âge moyen", f"{df['Âge'].mean():.1f} ans")
+    col2.metric("Taille moyenne", f"{df['Taille (cm)'].mean():.1f} cm")
+    col3.metric("Poids moyen", f"{df['Poids (kg)'].mean():.1f} kg")
 
-    for i, tab in enumerate(tabs):
+    st.markdown(
+        """
+        <div style="text-align: center; margin-top: 30px;">
+            <h3>Analyse approfondie</h3>
+            <p>Ces données permettent d'affiner nos recommandations pour améliorer la posture et réduire les tensions.</p>
+        </div>
+        """,
+        unsafe_allow_html=True,
+    )
 
-        with tab:
-            data_ticker = get_data_from_ticker(ticker=SYMBOLS[i], stocks=stocks)
-            if len(data_ticker) > 0:
-                st.subheader(f"Candlestick Chart for {SYMBOLS[i]} ticker ")
-                fig = get_figure(data_ticker=data_ticker, symbol=SYMBOLS[i])
-                st.plotly_chart(fig)
-            else:
-                st.write(f"Candlestick Chart for {SYMBOLS[i]} not available ")
-
-
+if __name__ == "__main__":
+    app()
 
 
 

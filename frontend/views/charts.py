@@ -12,7 +12,7 @@ import joblib
 
 # Charger l'encodeur sauvegardé
 label_encoder = joblib.load("model_classification/label_encoder.pkl")
-xgboost_model = joblib.load("model_classification/xgboost_model.pkl")
+#xgboost_model = joblib.load("model_classification/xgboost_model.pkl")
 random_forest_model = joblib.load("model_classification/random_forest_model.pkl")
 svm_model = joblib.load("model_classification/svm_model.pkl")
 model = joblib.load("model_classification/joblib_model.sav")
@@ -62,7 +62,7 @@ def app():
                 "Distance_EIPS_G", "Distance_EIPS_D", "Distance_T4", "Distance_L1"
             ])
             # Prédire les classes
-            y_pred = xgboost_model.predict(X_test_transformed)
+            y_pred = random_forest_model.predict(X_test_transformed)
 
             y_pred_decoded = label_encoder.inverse_transform(y_pred)
 
