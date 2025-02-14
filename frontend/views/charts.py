@@ -99,10 +99,10 @@ def app():
             col1, col2, col3 = st.columns([1, 3, 1])
             with col2:
                 st.image(image, caption=f"Zone : {label}")
-            
+
         else:
             st.error(f"Image introuvable pour {label} : {image_path}")
-
+        
     # Footer
     set_footer()
     
@@ -179,4 +179,31 @@ def set_footer():
     """, unsafe_allow_html=True)
 
 # Appliquez le header et le footer à votre page
+import requests
+import json
+
+# Clé API Gemini (remplace par ta propre clé)
+API_KEY = "AIzaSyBP9_kXCJ9Hi7JhA8tAdpMwtNUK8UVT8dY"
+
+# URL de l'API Gemini
+GEMINI_API_URL = "https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent"
+
+# Fonction pour appeler l'API Gemini
+def get_gemini_response(prompt):
+    headers = {"Content-Type": "application/json"}
+    payload = {
+        "contents": [{"parts": [{"text": prompt}]}]
+    }
+    response = requests.post(f"{GEMINI_API_URL}?key={API_KEY}", headers=headers, json=payload)
+    
+    if response.status_code == 200:
+        result = response.json()
+        return result["candidates"][0]["content"]["parts"][0]["text"]
+    else:
+        return f"Erreur {response.status_code}: {response.text}"
+
+
+# Champ de texte pour entrer la question
+#question = st.text_area("Pose ta question à Gemini :", "Quel est le plus grand désert du monde ?")
+
 
