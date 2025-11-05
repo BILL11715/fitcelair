@@ -141,7 +141,7 @@ def set_footer():
         }
         </style>
         <div class="footer">
-            Développé par [Ton Nom] - Kinésithérapie & IA
+            Développé par Fitcelaire - Kinésithérapie & IA
         </div>
     """, unsafe_allow_html=True)
 

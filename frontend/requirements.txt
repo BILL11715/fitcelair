@@ -8,3 +8,4 @@ pymongo
 plotly-express
 matplotlib
 setuptools
+scikit-learn==1.6.1
