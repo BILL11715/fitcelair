@@ -9,3 +9,5 @@ plotly-express
 matplotlib
 setuptools
 scikit-learn==1.6.1
+numpy==1.26.4
+pandas==2.2.4
