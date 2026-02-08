@@ -7,7 +7,7 @@ uvicorn
 # datetime
 # pytz
 # plotly
-# pandas
-# numpy
+pandas
+numpy
 # pandas_datareader
 # xmltodict
