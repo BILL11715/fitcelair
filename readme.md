@@ -46,6 +46,6 @@ You can access to :<br>
 
 - Backend service with url: [http://0.0.0.0:4000](http://0.0.0.0:4000) (copy and paste this url on your browser after step 1 and step 2)
 
-For more informations contact [me](mailto:mtchokos@gmail.com.)<br>
+For more informations contact [me](mailto:yanndevfrance04@gmail.com.)<br>
 Enjoy and have a best day,<br>
 Thanks.
